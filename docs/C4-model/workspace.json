@@ -1,0 +1,3009 @@
+{
+  "id": 1,
+  "name": "eMaint Cmms",
+  "description": "Computerized maintenance management system",
+  "lastModifiedDate": "2023-04-07T08:16:11Z",
+  "lastModifiedAgent": "structurizr-javascript",
+  "properties": {
+    "structurizr.dsl": "d29ya3NwYWNlICJlTWFpbnQgQ21tcyIgIkNvbXB1dGVyaXplZCBtYWludGVuYW5jZSBtYW5hZ2VtZW50IHN5c3RlbSIgewogICAgbW9kZWwgewogICAgICAgIHByb3BlcnRpZXMgewogICAgICAgICAgICAic3RydWN0dXJpenIuZ3JvdXBTZXBhcmF0b3IiICJ+IgogICAgICAgIH0KCnNlc1N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJBV1MgU2ltcGxlIEVtYWlsIFNlcnZpY2UiICJTZW5kcyBhbmQgUmVjZWl2ZXMgZW1haWxzIGluIFg1IiAiQXdzU2VzLEV4dGVybmFsU3lzdGVtIgoKZmx1a2VDb25uZWN0U3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gIkZsdWtlIENvbm5lY3QiICJJbnRlZ3JhdGVkIGFzc2V0IGRhdGEgYW5kIG9wdGltaXppbmcgbWFpbnRlbmFuY2Ugd29ya2Zsb3dzLCB1dGlsaXppbmcgZGV2aWNlIGFjcm9zcyB0aGUgZW50ZXJwcmlzZSIgIkV4dGVybmFsU3lzdGVtLEZsdWtlQ29ubmVjdCIKZmx1a2VNb2JpbGVTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiRmx1a2UgTW9iaWxlIiAiRmx1a2UgTW9iaWxlIGFsbG93cyB5b3UgdG8gbWFuYWdlIHdvcmsgb3JkZXJzIGFuZCB3b3JrIHJlcXVlc3RzLCBib29rIHNwYXJlIHBhcnRzLCB0cmFjayB3b3JrIGhvdXJzLCBhbmQgbXVjaCBtb3JlIiAiRXh0ZXJuYWxTeXN0ZW0sRmx1a2VNb2JpbGUiCmxpdmVBc3NldHNTeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiZU1haW50IENvbmRpdGlvbiBNb25pdG9yaW5nIiAiSW5mcmFyZWQsIHZpYnJhdGlvbiwgdGVtcGVyYXR1ciwgcG93ZXItcXVhbGl0eSwgU0NBREEvUExDIHdpdGggbWFuYWdlbWVudCBzb2Z0d2FyZSIgIkV4dGVybmFsU3lzdGVtLEZsdWtlTGl2ZUFzc2V0cyIKCiMgVE9ETzogY2xhcnRpZnkgdGhpcyB3aXRoIE1pa2V5IHdoYXQgYXJlIHRob3NlIHN5c3RlbXMgYWJvdXQKc2xhY2tOb3RpZmljYXRpb25TeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiU2xhY2siICJUZWFtIENvbW11bmljYXRpb24iICJFeHRlcm5hbFN5c3RlbSxTbGFjayIKbm90aWZpY2F0aW9uU3lzdGVtMiA9IHNvZnR3YXJlU3lzdGVtICJIVFRQIG5vdGlmaWNhdGlvbiBzeXN0ZW0iICIiICJFeHRlcm5hbFN5c3RlbSIKbm90aWZpY2F0aW9uU3lzdGVtMyA9IHNvZnR3YXJlU3lzdGVtICJPQXV0aCBub3RpZmljYXRpb24gc3lzdGVtIiAiIiAiRXh0ZXJuYWxTeXN0ZW0iCgojVE9ETzogY291bGQgeW91IHBsZWFzZSBmaW5kIG91dCBpZiB3ZSBoYXZlICJwdXNoIiAod2ViaG9va3MpIEFQSXMgdXNlZCBieSBjdXN0b21lcnMgPyAoSSB0aGluayB3ZSB1c2UgdGhlbSBmb3IgRk0pIGJ1dCBJJ20gbm90IDEwMCUgc3VyZQoKCgogICAgICAgIHRlbmFudFVzZXIgPSBwZXJzb24gIlRlbmFudCBVc2VyIiAiU3RhbmRhcmQgVXNlciIKCiAgICAgICAgZ3JvdXAgImVNYWludCBYNSBzeXN0ZW0gYm91bmRhcnkiIHsKICAgICAgICAgICAgcmVxdWVzdFVzZXIgPSBwZXJzb24gIlJlcXVlc3RlciBVc2VyIiAiTGltaXRlZCBVc2VyIgogICAgICAgICAgICBhZG1pblVzZXIgPSBwZXJzb24gIlN5c3RlbSBBZG1pbiBVc2VyIiAiU3VwZXIgVXNlciIKCiAgICAgICAgICAgIHg1U3lzdGVtID0gc29mdHdhcmVTeXN0ZW0gImVNYWludCBYNSAoQ01NUyBTeXN0ZW0pIiAiTWFpbnRlbmFuY2Ugc29mdHdhcmUgZm9yIHdvcmtvcmRlciwgaW52ZW50b3J5LCBhc3NldCBhbmQgdGVhbSBtYW5hZ2VtZW50IiAiZU1haW50IiB7CiAgICAgICAgICAgICAgICBmcm9udGVuZENvbnRhaW5lciA9IGNvbnRhaW5lciAiWDUgUHJpbWFyeSBVSSBBcHBsaWNhdGlvbiIgIlVJL1F1ZXJ5QnVpbGRlciIgIlJlYWN0L1R5cGVzY3JpcHQgYXBwbGljYXRpb24iICJKUyxXZWJCcm93c2VyIiB7CiAgICAgICAgICAgICAgICAgICAgd2ViYXBwID0gY29tcG9uZW50ICJXZWIgQXBwbGljYXRpb24iICIiICJSZWFjdC9UeXBlc2NyaXB0IGFwcGxpY2F0aW9uIiAiSlMsV2ViQnJvd3NlciIKICAgICAgICAgICAgICAgICAgICBhZG1pbkFwcCA9IGNvbXBvbmVudCAiQWRtaW5pc3RyYXRpb24gQXBwbGljYXRpb24iICIiICJSZWFjdC9UeXBlc2NyaXB0IGFwcGxpY2F0aW9uIiAiSlMsV2ViQnJvd3NlciIKICAgICAgICAgICAgICAgICAgICByZXF1ZXN0ZXJBcHAgPSBjb21wb25lbnQgIlJlcXVlc3RlciBBcHBsaWNhdGlvbiIgIiIgIlJlYWN0L1R5cGVzY3JpcHQgYXBwbGljYXRpb24iICJKUyxXZWJCcm93c2VyIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG5naW54Q29udGFpbmVyID0gY29udGFpbmVyICJOZ2lueCBSZXZlcnNlIFByb3h5IiAiSW5qZWN0cyBIdHRwIEhlYWRlciwgbGlrZSAnQ29udGVudC1TZWN1cml0eS1Qb2xpY3knIiAiTmdpbngiICJOZ2lueCIKCiAgICAgICAgICAgICAgICBhcGlDb250YWluZXIgPSBjb250YWluZXIgIlg1LkFwaSIgIlByaW1hcnkgQmFja2VuZCBBcGkiICJJSG9zdCIgIkFwaSIgewogICAgICAgICAgICAgICAgICAgIHBhc3N3b3JkQ2hhbmdlQ29udHJvbGxlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiUGFzc3dvcmQgQ2hhbmdlIENvbnRyb2xsZXIiICJYNS5BZG1pbi5XZWJBcGkuQ29udHJvbGxlcnMuUGFzc3dvcmRDaGFuZ2VDb250cm9sbGVyIiAiQ29udHJvbGxlciIKICAgICAgICAgICAgICAgICAgICB0ZW5hbnRTZXNzaW9uQ29udHJvbGxlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiVGVuYW50IFNlc3Npb24gQ29udHJvbGxlciIgIlg1LlNoYXJlZC5XZWJBcGkuQ29udHJvbGxlcnMuVGVuYW50U2Vzc2lvbkNvbnRyb2xsZXIiICJDb250cm9sbGVyIgogICAgICAgICAgICAgICAgICAgIHJlY29yZHNDb250cm9sbGVyQ29tcG9uZW50ID0gY29tcG9uZW50ICJSZWNvcmRzIENvbnRyb2xsZXIiICJYNS5DbW1zLldlYkFwaS5Db250cm9sbGVycy5SZWNvcmRzQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICAgICAgbGFwUmVkaXJlY3Rpb25Db250cm9sbGVyQ29tcG9uZW50ID0gY29tcG9uZW50ICJMQVAgQ29udHJvbGxlciIgIlg1LkNtbXMuV2ViQXBpLkNvbnRyb2xsZXJzLkxhcFJlZGlyZWN0aW9uQ29udHJvbGxlciIgIkNvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICAgICAgbGFwSnd0Q29udHJvbGxlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiTEFQIEpXVCBTZWN1cml0eSBDb250cm9sbGVyIiAiWDUuQ21tcy5XZWJBcGkuQ29udHJvbGxlcnMuTGFwU2VjdXJpdHlDb250cm9sbGVyIiAiQ29udHJvbGxlciIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBkZXZFeHByZXNzQXBpQ29udGFpbmVyID0gY29udGFpbmVyICJYNS5EZXZFeHByZXNzLkFwaSIgIk1hbmFnZXMgRGFzaGJvYXJkIHYyIEludGVyYWN0aW9ucyIgIklIb3N0IiAiQXBpIgoKICAgICAgICAgICAgICAgIHJhYmJpdENvbnRhaW5lciA9IGNvbnRhaW5lciAiTWVzc2FnaW5nIFF1ZXVlIiAiUmFiYml0IFF1ZXVlcyIgIlJhYmJpdE1RIiAiUmFiYml0TVEiCiAgICAgICAgICAgICAgICBzcXNRdWV1ZSA9IGNvbnRhaW5lciAiQVdTIFNpbXBsZSBRdWV1ZSBTZXJ2aWNlIiAiUmVjZWl2aW5nIGVtYWlscyBpbnRvIFg1IiAiQVdTIFNRUyIgIkF3c1NxcyIKICAgICAgICAgICAgICAgIHNxbENvbnRhaW5lciA9IGNvbnRhaW5lciAiWDUgRGF0YXN0b3JlIiAiS2VlcHMgYWxsIHRoZSBkYXRhIGZvciB3aG9sZSBYNSBzeXN0ZW0iICJNU1NRTFNlcnZlciIgIlNRTFNlcnZlciIKICAgICAgICAgICAgICAgIHMzQnVja2V0Q29udGFpbmVyID0gY29udGFpbmVyICJBV1MgUzMgQnVja2V0IiAiS2VlcHMgYWxsIGZpbGUgYW5kIGltYWdlIHJlc291cmNlIGZvciB3aG9sZSBYNSBzeXN0ZW0iICIiICJFeHRlcm5hbFN5c3RlbSxBd3NTM0J1Y2tldCIKCiAgICAgICAgICAgICAgICBncm91cCAiWDUgQ29yZSBTZXJ2aWNlcyIgewogICAgICAgICAgICAgICAgICAgIGFkbWluQ29udGFpbmVyID0gY29udGFpbmVyICJBZG1pbiBTZXJ2aWNlIiAiWDUuQWRtaW4uU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgICAgICBwYXNzd29yZFJlc2V0SGFuZGxlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiVGVuYW50IFBhc3N3b3JkIFJlc2V0IFJlcXVlc3QgSGFuZGxlciIgIlg1LkFkbWluLkhhbmRsZXJzLlRlbmFudFBhc3N3b3JkUmVzZXRSZXF1ZXN0SGFuZGxlciIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY21tc0NvbnRhaW5lciA9IGNvbnRhaW5lciAiQ21tcyBTZXJ2aWNlIiAiWDUuQ21tcy5TZXJ2aWNlIiAiQmFja2dyb3VuZFNlcnZpY2UiICJTZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgIGRhdGFJbXBvcnRDb250YWluZXIgPSBjb250YWluZXIgIkRhdGEgSW1wb3J0IFNlcnZpY2UiICJYNS5EYXRhSW1wb3J0LlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBlbWFpbENvbnRhaW5lciA9IGNvbnRhaW5lciAiRW1haWwgU2VydmljZSIgIlg1LkVtYWlsLlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VuZEVtYWlsSGFuZGxlckNvbXBvbmVudCA9IGNvbXBvbmVudCAiU2VuZCBFbWFpbCBIYW5kbGVyIiAiWDUuRW1haWwuSGFuZGxlcnMuU2VuZEVtYWlsSGFuZGxlciIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZmx1a2VDb250YWluZXIgPSBjb250YWluZXIgIkZsdWtlIFNlcnZpY2UiICJYNS5GbHVrZS5TZXJ2aWNlIiAiQmFja2dyb3VuZFNlcnZpY2UiICJTZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgIGludGVncmF0aW9uc0NvbnRhaW5lciA9IGNvbnRhaW5lciAiSW50ZWdyYXRpb25zIFB1c2ggU2VydmljZSIgIlg1LkludGVncmF0aW9uLlB1c2guU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIKICAgICAgICAgICAgICAgICAgICBpbnZlbnRvcnlDb250YWluZXIgPSBjb250YWluZXIgIkludmVudG9yeSBTZXJ2aWNlIiAiWDUuSW52ZW50b3J5LlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgbGl2ZUFzc2V0RXZlbnRzQ29udGFpbmVyID0gY29udGFpbmVyICJMaXZlIEFzc2V0IEV2ZW50cyBTZXJ2aWNlIiAiWDUuTGl2ZUFzc2V0c0V2ZW50cy5TZXJ2aWNlIiAiQmFja2dyb3VuZFNlcnZpY2UiICJTZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgIG1pY3JvU2VydmljZXNDb25uZWN0b3JDb250YWluZXIgPSBjb250YWluZXIgIk1pY3Jvc2VydmljZXMgQ29udGVjdG9yIFNlcnZpY2UiICJYNS5NaWNyb3NlcnZpY2VzLlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGluZ0NvbnRhaW5lciA9IGNvbnRhaW5lciAiU2NoZWR1bGluZyBTZXJ2aWNlIiAiWDUuU2NoZWR1bGluZy5TZXJ2aWNlIiAiQmFja2dyb3VuZFNlcnZpY2UiICJTZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgIHdvcmtmbG93c0NvbnRhaW5lciA9IGNvbnRhaW5lciAiV29ya2Zsb3dzIFNlcnZpY2UiICJYNS5Xb3JrZmxvd3MuU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBncm91cCAiWDUgTWljcm8gc2VydmljZXMiIHsKICAgICAgICAgICAgICAgICAgICBkb21haW5FdmVudHNDb250YWluZXIgPSBjb250YWluZXIgIkF1ZGl0IFRyYWlsIFNlcnZpY2UiICJYNS5Eb21haW5FdmVudHMuU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIgewogICAgICAgICAgICAgICAgICAgICAgICBzZXJ2aWNlQ29tcG9uZW50ID0gY29tcG9uZW50ICJEb21haW4gRXZlbnRzIFNlcnZpY2UiICJIYW5kbGUgRG9tYWluIEV2ZW50cyBTZXJ2aWNlIiAiSVNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHByZXZlbnRpdmVNYWludGFpbmFuY2VDb250YWluZXIgPSBjb250YWluZXIgIlByZXZlbnRpdmUgTWFpbnRhaW5hbmNlIFNlcnZpY2UiICJYNS5QcmV2ZW50aXZlTWFpbnRhaW5hbmNlLlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgcmVsYXRlZFJlY29yZHNDb250YWluZXIgPSBjb250YWluZXIgIlJlbGF0ZWQgUmVjb3JkcyBTZXJ2aWNlIiAiWDUuUmVsYXRlZFJlY29yZHMuU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIKICAgICAgICAgICAgICAgICAgICByaW1lUmFua2luZ0NvbnRhaW5lciA9IGNvbnRhaW5lciAiUmltZSBSYW5raW5nIFNlcnZpY2UiICJYNS5SaW1lUmFua2luZy5TZXJ2aWNlIiAiQmFja2dyb3VuZFNlcnZpY2UiICJTZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlckNvbnRhaW5lciA9IGNvbnRhaW5lciAiU2NoZWR1bGVyIFNlcnZpY2UiICJYNS5TY2hlZHVsZXIuU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9ySW5Db250YWluZXIgPSBjb250YWluZXIgIk1lc3NhZ2UgVHJhbnNsYXRpb24gSW4gU2VydmljZSIgIlg1LlRyYW5zbGF0b3IuSW4uU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIKICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdG9yT3V0Q29udGFpbmVyID0gY29udGFpbmVyICJNZXNzYWdlIFRyYW5zbGF0aW9uIE91dCBTZXJ2aWNlIiAiWDUuVHJhbnNsYXRvci5PdXQuU2VydmljZSIgIkJhY2tncm91bmRTZXJ2aWNlIiAiU2VydmljZSIKICAgICAgICAgICAgICAgICAgICB0cmVuZGluZ01ldGVyc0NvbnRhaW5lciA9IGNvbnRhaW5lciAiVHJlbmRpbmcgTWV0ZXIgU2VydmljZSIgIlg1LlRyZW5kaW5nTWV0ZXJzLlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiCiAgICAgICAgICAgICAgICAgICAgd29ya09yZGVyQ3JlYXRpb25Db250YWluZXIgPSBjb250YWluZXIgIldvcmsgT3JkZXIgQ3JlYXRpb24gU2VydmljZSIgIlg1LldvcmtPcmRlckNyZWF0aW9uLlNlcnZpY2UiICJCYWNrZ3JvdW5kU2VydmljZSIgIlNlcnZpY2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkeW5hbW9EYkNvbnRhaW5lciA9IGNvbnRhaW5lciAiRHlhbmFtb0RCIEF1ZGl0IFRyYWlsIERhdGFzdG9yZSIgIktlZXBzIGFsbCB0aGUgQXVkaXQgdHJhaWwgZGF0YSIgIkR5bmFtb0RiIiAiRHluYW1vRGIiCiAgICAgICAgICAgICAgICBtb25nb0RiQ29udGFpbmVyID0gY29udGFpbmVyICJNb25nb0RiIFNjaGVkdWxlZCBXb3JrT3JkZXJzIiAiU3RvcmVzIFNjaGVkdWxlZCBXb3JrIE9yZGVycyIgIk1vbmdvRGIiICJNb25nb0RiIgoKICAgICAgICAgICAgICAgIGdyb3VwICJYNSB0byBMQVAgbmF2aWdhdGlvbiBpbnRlZ3JhdGlvbiIgewogICAgICAgICAgICAgICAgICAgIGZyb250ZW5kQ29udGFpbmVyIC0+IGxhcFJlZGlyZWN0aW9uQ29udHJvbGxlckNvbXBvbmVudCAiUmVkaXJlY3Rpb24gYWZ0ZXIgQ0xJQ0sgb24gTEFQIHVybCIKICAgICAgICAgICAgICAgICAgICBsYXBSZWRpcmVjdGlvbkNvbnRyb2xsZXJDb21wb25lbnQgLT4gbGFwSnd0Q29udHJvbGxlckNvbXBvbmVudCAiQWNxdWlyZSB0b2tlbiBmb3IgYSBnaXZlbiB1c2VyIElEIgogICAgICAgICAgICAgICAgICAgIGxhcEp3dENvbnRyb2xsZXJDb21wb25lbnQgLT4gbGFwUmVkaXJlY3Rpb25Db250cm9sbGVyQ29tcG9uZW50ICJSZXR1cm4gYmVhcmVyIHRva2VuIHdpdGggdGhlIHVzZXIgSUQgaW5jbHVkZWQiICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBsYXBSZWRpcmVjdGlvbkNvbnRyb2xsZXJDb21wb25lbnQgLT4gbGl2ZUFzc2V0c1N5c3RlbSAiUmVkaXJlY3Rpb24gd2l0aCB0aGUgYWNxdWlyZWQgYmVhcmVyIHRva2VuIChpZGVhbGx5IGluIHRoZSBodHRwIGhlYWRlcnMgYnV0IGV2ZW50dWFsbHkgY2FuIGJlIGluIGFuIHVybCBxdWVyeSBwYXJhbWV0ZXJzKSIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIGNvbnRyb2xsZXJzIGFuZCBjb250YWluZXIvY29tcG9uZW50cwogICAgICAgIG5naW54Q29udGFpbmVyIC0+IHBhc3N3b3JkQ2hhbmdlQ29udHJvbGxlckNvbXBvbmVudCAiRm9yd2FyZCIKICAgICAgICBuZ2lueENvbnRhaW5lciAtPiByZWNvcmRzQ29udHJvbGxlckNvbXBvbmVudCAiRm9yd2FyZCIKICAgICAgICBwYXNzd29yZENoYW5nZUNvbnRyb2xsZXJDb21wb25lbnQgLT4gc3FsQ29udGFpbmVyICJSZWFkIiAgICAgICAgCiAgICAgICAgcGFzc3dvcmRDaGFuZ2VDb250cm9sbGVyQ29tcG9uZW50IC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCIgCiAgICAgICAgcmVjb3Jkc0NvbnRyb2xsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBwZW9wbGUgYW5kIHN5c3RlbXMKICAgICAgICBhZG1pblVzZXIgLT4gZnJvbnRlbmRDb250YWluZXIgIlVzZXMiCiAgICAgICAgdGVuYW50VXNlciAtPiBmcm9udGVuZENvbnRhaW5lciAiVXNlcyIKICAgICAgICByZXF1ZXN0VXNlciAtPiBmcm9udGVuZENvbnRhaW5lciAiVXNlcyIKICAgICAgICBzZXNTeXN0ZW0gLT4gdGVuYW50VXNlciAiU2VuZHMgZW1haWwgdG8iCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIFg1IENvcmUgc2VydmljZXMgY29udGFpbmVycyBhbmQgUmFiYml0TVEKICAgICAgICBhcGlDb250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBYNSBDb3JlIHNlcnZpY2VzIGNvbnRhaW5lcnMgYW5kIFNRUwogICAgICAgIHRlbmFudFVzZXIgLT4gc2VzU3lzdGVtICJTZW5kcyBhbiBlbWFpbCIKICAgICAgICBzZXNTeXN0ZW0gLT4gc3FzUXVldWUgIlB1Ymxpc2giCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIFg1IGNvcmUgc2VydmljZXMgYW5kIFNxbCBkYXRhc3RvcmUKICAgICAgICBhcGlDb250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBuZ2lueENvbnRhaW5lciBjb21wb25lbnQgYW5kIEJFIEFQSSwgRGV2RXhwcmVzcyBjb250YWluZXJzCiAgICAgICAgbmdpbnhDb250YWluZXIgLT4gYXBpQ29udGFpbmVyICJGb3J3YXJkIiAiSlNPTi9IVFRQUyIKICAgICAgICBuZ2lueENvbnRhaW5lciAtPiBkZXZFeHByZXNzQXBpQ29udGFpbmVyICJGb3J3YXJkIiAiSlNPTi9IVFRQUyIgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gd2ViIGFwcGxpY2F0aW9ucyBhbmQgbmdpbnhDb250YWluZXIgcmV2ZXJzZSByZXZlcnNlUHJveHlDb21wb25lbnQgY29tcG9uZW50cwogICAgICAgIHdlYmFwcCAtPiBuZ2lueENvbnRhaW5lciAiUmVxdWVzdCIgIkpTT04vSFRUUFMiCiAgICAgICAgYWRtaW5BcHAgLT4gbmdpbnhDb250YWluZXIgIlJlcXVlc3QiICJKU09OL0hUVFBTIgogICAgICAgIHJlcXVlc3RlckFwcCAtPiBuZ2lueENvbnRhaW5lciAiUmVxdWVzdCIgIkpTT04vSFRUUFMiCiAgICAgICAgCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4geDUgc3lzdGVtIGFuZCBleHRlcm5hbCBzeXN0ZW1zCiAgICAgICAgeDVzeXN0ZW0gLT4gc2xhY2tOb3RpZmljYXRpb25TeXN0ZW0gIk5vdGlmaWVzIgogICAgICAgIHg1c3lzdGVtIC0+IG5vdGlmaWNhdGlvblN5c3RlbTIgIk5vdGlmaWVzIgogICAgICAgIHg1c3lzdGVtIC0+IG5vdGlmaWNhdGlvblN5c3RlbTMgIk5vdGlmaWVzIgogICAgICAgIHg1c3lzdGVtIC0+IGZsdWtlQ29ubmVjdFN5c3RlbSAiRmV0Y2hlcyBBc3NldHMgJiBQdXNoZXMgT3BlbiBXb3Jrb3JkZXJzIgogICAgICAgIHg1U3lzdGVtIC0+IHNlc1N5c3RlbSAiU2VuZCIKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gY29tcG9uZW50cwogICAgICAgIGFkbWluVXNlciAtPiBhZG1pbkFwcCAiVXNlcyIKICAgICAgICB0ZW5hbnRVc2VyIC0+IHdlYmFwcCAiVXNlcyIKICAgICAgICByZXF1ZXN0VXNlciAtPiByZXF1ZXN0ZXJBcHAgIlVzZXMiCiAgICAgICAgCiAgICAgICAgIyBub3RpZmljYXRpb25zCiAgICAgICAgaW50ZWdyYXRpb25zQ29udGFpbmVyIC0+IHNsYWNrTm90aWZpY2F0aW9uU3lzdGVtICJQdXNoZXMgbm90aWZpY2F0aW9ucyIKICAgICAgICBpbnRlZ3JhdGlvbnNDb250YWluZXIgLT4gbm90aWZpY2F0aW9uU3lzdGVtMiAiUHVzaGVzIG5vdGlmaWNhdGlvbnMiCiAgICAgICAgaW50ZWdyYXRpb25zQ29udGFpbmVyIC0+IG5vdGlmaWNhdGlvblN5c3RlbTMgIlB1c2hlcyBub3RpZmljYXRpb25zIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBYNSBDb3JlIHNlcnZpY2VzIGNvbnRhaW5lcnMgYW5kIFJhYmJpdE1RCiAgICAgICAgYWRtaW5Db250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgogICAgICAgIGVtYWlsQ29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCAmIFN1YnNjcmliZSIKICAgICAgICBjbW1zQ29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCAmIFN1YnNjcmliZSIKICAgICAgICBzY2hlZHVsaW5nQ29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCIKICAgICAgICBkYXRhSW1wb3J0Q29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCAmIFN1YnNjcmliZSIKICAgICAgICBmbHVrZUNvbnRhaW5lciAtPiByYWJiaXRDb250YWluZXIgIlN1YnNjcmliZSIKICAgICAgICBpbnRlZ3JhdGlvbnNDb250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJTdWJzY3JpYmUiCiAgICAgICAgaW52ZW50b3J5Q29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCAmIFN1YnNjcmliZSIKICAgICAgICBsaXZlQXNzZXRFdmVudHNDb250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoIgogICAgICAgIG1pY3JvU2VydmljZXNDb25uZWN0b3JDb250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgogICAgICAgIHdvcmtmbG93c0NvbnRhaW5lciAtPiByYWJiaXRDb250YWluZXIgIlB1Ymxpc2ggJiBTdWJzY3JpYmUiCgogICAgICAgICMgcmVsYXRpb25zaGlwcyBiZXR3ZWVuIFg1IENvcmUgc2VydmljZXMgY29udGFpbmVycyBhbmQgUzMgQnVja2V0CiAgICAgICAgYWRtaW5Db250YWluZXIgLT4gczNCdWNrZXRDb250YWluZXIgIkRlbGV0ZXMgb3IgQ29waWVzIGEgbmV3IHJlc291cmNlcyIKICAgICAgICBjbW1zQ29udGFpbmVyIC0+IHMzQnVja2V0Q29udGFpbmVyICJNb3ZlcyBCbG9icyIKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gWDUgQ29yZSBzZXJ2aWNlcyBjb250YWluZXJzIGFuZCBTUVMKICAgICAgICBlbWFpbENvbnRhaW5lciAtPiBzcXNRdWV1ZSAiUHVsbCAocG9sbGluZykiCgogICAgICAgICMgZmx1a2VDb25uZWN0U3lzdGVtCiAgICAgICAgZmx1a2VDb250YWluZXIgLT4gZmx1a2VDb25uZWN0U3lzdGVtICJGZXRjaCBhc3NldHMgJiBQdXNoZXMgT3BlbiBXb3Jrb3JkZXJzIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgYmV0d2VlbiBYNSBjb3JlIHNlcnZpY2VzIGFuZCBTcWwgZGF0YXN0b3JlCiAgICAgICAgYWRtaW5Db250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkICYgV3JpdGUiCiAgICAgICAgZW1haWxDb250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkIgogICAgICAgIGRhdGFJbXBvcnRDb250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkICYgV3JpdGUiCiAgICAgICAgY21tc0NvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQgJiBXcml0ZSIKICAgICAgICBmbHVrZUNvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQiCiAgICAgICAgaW50ZWdyYXRpb25zQ29udGFpbmVyIC0+IHNxbENvbnRhaW5lciAiUmVhZCIKICAgICAgICBpbnZlbnRvcnlDb250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkICYgV3JpdGUiCiAgICAgICAgbGl2ZUFzc2V0RXZlbnRzQ29udGFpbmVyIC0+IHNxbENvbnRhaW5lciAiUmVhZCAmIFdyaXRlIgogICAgICAgIG1pY3JvU2VydmljZXNDb25uZWN0b3JDb250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkIgogICAgICAgIHdvcmtmbG93c0NvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQgJiBXcml0ZSIKCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gWDUgY29yZSBzZXJ2aWNlcyBhbmQgZXh0ZXJuYWwgQW1hem9uIGVtYWlsQ29udGFpbmVyIHNlcnZpY2VzICAgICAgCiAgICAgICAgZW1haWxDb250YWluZXIgLT4gc2VzU3lzdGVtICJTZW5kIiAgIAoKICAgICAgICAjIFBhc3N3b3JkIHJlc2V0IGNvbnRhaW5lcgogICAgICAgICMgVE9ETzogdGFrZSB0aGlzIG91dCBpbnRvIGEgY29tcG9uZW50IGxldmVsIGFuZCBrZWVwIG9ubHkgY29udGFpbmVyIGxldmVsIGhlcmUKICAgICAgICBuZ2lueENvbnRhaW5lciAtPiBwYXNzd29yZENoYW5nZUNvbnRyb2xsZXJDb21wb25lbnQgIkZvcndhcmQiCiAgICAgICAgcGFzc3dvcmRDaGFuZ2VDb250cm9sbGVyQ29tcG9uZW50IC0+IHNxbENvbnRhaW5lciAiUmVhZCIgICAgICAgIAogICAgICAgIHBhc3N3b3JkQ2hhbmdlQ29udHJvbGxlckNvbXBvbmVudCAtPiByYWJiaXRDb250YWluZXIgIlB1Ymxpc2giCiAgICAgICAgcGFzc3dvcmRSZXNldEhhbmRsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJTdWJzY3JpYmUiCiAgICAgICAgcGFzc3dvcmRSZXNldEhhbmRsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoIgogICAgICAgIHBhc3N3b3JkUmVzZXRIYW5kbGVyQ29tcG9uZW50IC0+IHNxbENvbnRhaW5lciAiUmVhZCAmIFdyaXRlIgogICAgICAgIHNlbmRFbWFpbEhhbmRsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJTdWJzY3JpYmUiICAgICAgICAKICAgICAgICBzZW5kRW1haWxIYW5kbGVyQ29tcG9uZW50IC0+IHNlc1N5c3RlbSAiU2VuZCIKICAgICAgICBzZW5kRW1haWxIYW5kbGVyQ29tcG9uZW50IC0+IHNxbENvbnRhaW5lciAiUmVhZCIKICAgICAgICByZWNvcmRzQ29udHJvbGxlckNvbXBvbmVudCAtPiBzcWxDb250YWluZXIgIlJlYWQiCgogICAgICAgICMgTUlDUk9TRVJWSUNFUwoKICAgICAgICBkb21haW5FdmVudHNDb250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgogICAgICAgIGRvbWFpbkV2ZW50c0NvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQiCiAgICAgICAgc2VydmljZUNvbXBvbmVudCAtPiByYWJiaXRDb250YWluZXIKICAgICAgICBzZXJ2aWNlQ29tcG9uZW50IC0+IHNxbENvbnRhaW5lcgogICAgICAgIHNlcnZpY2VDb21wb25lbnQgLT4gZHluYW1vRGJDb250YWluZXIKICAgICAgICBzY2hlZHVsZXJDb250YWluZXIgLT4gbW9uZ29EYkNvbnRhaW5lcgogICAgICAgIHNjaGVkdWxlckNvbnRhaW5lciAtPiByYWJiaXRDb250YWluZXIgIlB1Ymxpc2ggJiBTdWJzY3JpYmUiCiAgICAgICAgcHJldmVudGl2ZU1haW50YWluYW5jZUNvbnRhaW5lciAtPiByYWJiaXRDb250YWluZXIgIlB1Ymxpc2ggJiBTdWJzY3JpYmUiCiAgICAgICAgcHJldmVudGl2ZU1haW50YWluYW5jZUNvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQiCiAgICAgICAgcHJldmVudGl2ZU1haW50YWluYW5jZUNvbnRhaW5lciAtPiBtaWNyb1NlcnZpY2VzQ29ubmVjdG9yQ29udGFpbmVyICJSZWFkIgogICAgICAgIHJlbGF0ZWRSZWNvcmRzQ29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCAmIFN1YnNjcmliZSIKICAgICAgICByZWxhdGVkUmVjb3Jkc0NvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQgJiBXcml0ZSIKICAgICAgICByaW1lUmFua2luZ0NvbnRhaW5lciAtPiByYWJiaXRDb250YWluZXIgIlB1Ymxpc2ggJiBTdWJzY3JpYmUiCiAgICAgICAgcmltZVJhbmtpbmdDb250YWluZXIgLT4gc3FsQ29udGFpbmVyICJSZWFkIiAgICAgICAgCiAgICAgICAgcmltZVJhbmtpbmdDb250YWluZXIgLT4gbWljcm9TZXJ2aWNlc0Nvbm5lY3RvckNvbnRhaW5lciAiUmVhZCIKICAgICAgICB0cmFuc2xhdG9ySW5Db250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgogICAgICAgIHRyYW5zbGF0b3JPdXRDb250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgogICAgICAgIHRyZW5kaW5nTWV0ZXJzQ29udGFpbmVyIC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCAmIFN1YnNjcmliZSIKICAgICAgICB0cmVuZGluZ01ldGVyc0NvbnRhaW5lciAtPiBzcWxDb250YWluZXIgIlJlYWQiCiAgICAgICAgd29ya09yZGVyQ3JlYXRpb25Db250YWluZXIgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoICYgU3Vic2NyaWJlIgogICAgICAgIHdvcmtPcmRlckNyZWF0aW9uQ29udGFpbmVyIC0+IHNxbENvbnRhaW5lciAiUmVhZCAmIFdyaXRlIiAgICAgICAgIAogICAgICAgIHdvcmtPcmRlckNyZWF0aW9uQ29udGFpbmVyIC0+IG1pY3JvU2VydmljZXNDb25uZWN0b3JDb250YWluZXIgIlJlYWQiCgogICAgICAgICMgRU5EIE1JQ1JPU0VSVklDRVMKCiAgICAgICAgIyBUT0RPOgogICAgICAgICMgdGFrZSBvdXQgaW50byBhIHNlcGFyYXRlZCBmaWxlOgogICAgICAgICAgICAjIG1haW4gdGhhdCBpbmNsdWRlIHR3byBzeXN0ZW1zIHNvIHg1c3lzdGVtIGFuZCBvdGhlciB0b3AgbGV2ZWwgc3lzdGVtCiAgICAgICAgICAgICMgZXh0ZW5kIHg1IHN5c3RlbSBmcm9tIHRoZSBGUlMgd29ya3NwYWNlCiAgICAgICAgIyBUT0RPOiBwcmVzZW50IGl0IHRvIENyaXMgYW5kIGNvbmZpcm0gaXQgbG9va3MgbmljZQoKICAgICAgICBncm91cCAiRmx1a2UgUmVsaWFiaWxpdHkgU3lzdGVtcyAoRlJTKSIgewogICAgICAgICAgICBsaXZlQXNzZXRzU3lzdGVtIC0+IHg1U3lzdGVtCiAgICAgICAgICAgIGZsdWtlTW9iaWxlU3lzdGVtIC0+IHg1U3lzdGVtCiAgICAgICAgICAgIHg1U3lzdGVtIC0+IGZsdWtlTW9iaWxlU3lzdGVtCiAgICAgICAgICAgICMgVE9ETzogQURQIHNvbWV0aGluZyBzb21ldGhpbmcgc3lzdGVtIG1heWJlPyBBc2sgQ3Jpcy4KICAgICAgICB9CgogICAgICAgIGRlcGxveW1lbnRFbnZpcm9ubWVudCAiRGV2IEVudmlyb25tZW50IiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJFVS1XRVNULTEiICIiICJNaWNyb3NvZnQgV2luZG93cyAxMCBvciBBcHBsZSBtYWNPUyIgewogICAgICAgICAgICAgICAgI2RlcGxveW1lbnROb2RlICJXZWIgQnJvd3NlciIgIiIgIkNocm9tZSwgRmlyZWZveCwgU2FmYXJpLCBvciBFZGdlIiB7CiAgICAgICAgICAgICAgICAjICAgIGRldlNpbmdsZVBhZ2VBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugd2ViCiAgICAgICAgICAgICAgICAjfQogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY2tlciBDb250YWluZXIgLSBXZWIgU2VydmVyIiAiIiAiRG9ja2VyIiB7CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIk5naW54IiAiIiAiTmdpbnggMS4yMS40IiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRldldlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBmcm9udGVuZENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJEYXRhYmFzZSBTZXJ2ZXIiICIiICJFQzIiIHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRGF0YWJhc2UgU2VydmVyIiAiIiAiTVMgU3FsIDIwMTkiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGV2RGF0YWJhc2VJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHNxbENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJSYWJiaXRNUSBTZXJ2ZXIiICIiICJBbWF6b25NUSIgewogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJSYWJiaXRNUSBTZXJ2ZXIiICIiICJNUyBTcWwgMjAxOSIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXZSYWJiaXRJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHJhYmJpdENvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBcGkgQmFja2VuZCIgIiIgIkVDMiIgewogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBcGkgQmFja2VuZCIgIiIgIkZhcmdhdGUiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGV2QXBpSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBhcGlDb250YWluZXIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyBkZXBsb3ltZW50Tm9kZSAiRG9ja2VyIENvbnRhaW5lciAtIEFkbWluIFNlcnZpY2UiICIiICJGYXJnYXRlIiB7CiAgICAgICAgICAgICAgICAvLyAgICAgZGVwbG95bWVudE5vZGUgIkFkbWluIFNlcnZpY2UiICIiICJGYXJnYXRlIiB7CiAgICAgICAgICAgICAgICAvLyAgICAgICAgIGRldkFkbWluSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBlbWFpbENvbnRhaW5lcgogICAgICAgICAgICAgICAgLy8gICAgIH0KICAgICAgICAgICAgICAgIC8vIH0KICAgICAgICAgICAgICAgIC8vIGRlcGxveW1lbnROb2RlICJEb2NrZXIgQ29udGFpbmVyIC0gRW1haWwgU2VydmljZSIgIiIgIkZhcmdhdGUiIHsKICAgICAgICAgICAgICAgIC8vICAgICBkZXBsb3ltZW50Tm9kZSAiRW1haWwgU2VydmljZSIgIiIgIkZhcmdhdGUiIHsKICAgICAgICAgICAgICAgIC8vICAgICAgICAgZGV2RW1haWxJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGVtYWlsQ29udGFpbmVyCiAgICAgICAgICAgICAgICAvLyAgICAgfQogICAgICAgICAgICAgICAgLy99ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgfQogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiZU1haW50IFg1IiAiIiAiZU1haW50IENNTVMgU3lzdGVtIiAiIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiY21tcy1kZXYwMDEiICIiICIiICIiIHsKICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIHg1U3lzdGVtCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIHZpZXdzICJYNSBCaWcgUGljdHVyZSIgewogICAgICAgIHByb3BlcnRpZXMgewogICAgICAgICAgICAic3RydWN0dXJpenIuc29mdHdhcmVTeXN0ZW1Cb3VuZGFyaWVzIiAidHJ1ZSIKICAgICAgICB9CiAgICAgICAgc3lzdGVtTGFuZHNjYXBlICJjbXNzIiAiZU1haW50IiB7CiAgICAgICAgICAgIHRpdGxlICJbTGFuZHNjYXBlXSBlTWFpbnQgWDUgKENNTVMgU3lzdGVtKSBzeXN0ZW1zIgogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN5c3RlbUxhbmRzY2FwZSAiRlJTIiAiRmx1a2UgUmVsaWFiaWxpdHkiIHsKICAgICAgICAgICAgdGl0bGUgIltMYW5kc2NhcGVdIEZsdWtlIFJlbGlhYmlsaXR5IHN5c3RlbXMiCiAgICAgICAgICAgIGluY2x1ZGUgeDVTeXN0ZW0gZmx1a2VDb25uZWN0U3lzdGVtIGZsdWtlTW9iaWxlU3lzdGVtIGxpdmVBc3NldHNTeXN0ZW0KICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciB4NVN5c3RlbSAieDVDb250YWluZXJzIiAiWDUgY29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIGRlcGxveW1lbnQgeDVTeXN0ZW0gIkRldiBFbnZpcm9ubWVudCIgIkRldmVsb3BtZW50RGVwbG95bWVudCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGRldldlYkFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGRldldlYkFwcGxpY2F0aW9uSW5zdGFuY2UgZGV2QXBpSW5zdGFuY2UKICAgICAgICAgICAgICAgIGRldkRhdGFiYXNlSW5zdGFuY2UgZGV2UmFiYml0SW5zdGFuY2UKICAgICAgICAgICAgfQogICAgICAgICAgICAjYXV0b0xheW91dAogICAgICAgIH0KCmR5bmFtaWMgYXBpQ29udGFpbmVyICJBdWRpdFRyYWlsIiAiQXVkaXQgVHJhaWwgV29ya2Zsb3ciIHsKICAgIHdlYmFwcCAtPiBuZ2lueENvbnRhaW5lciAiR2V0IEF1ZGl0IFRyYWlsIHJlcXVlc3QiCiAgICBuZ2lueENvbnRhaW5lciAtPiByZWNvcmRzQ29udHJvbGxlckNvbXBvbmVudCAiR2V0IEF1ZGl0IFRyYWlsIHJlcXVlc3QiCiAgICByZWNvcmRzQ29udHJvbGxlckNvbXBvbmVudCAtPiBzcWxDb250YWluZXIgIlJlYWQgcmVjb3JkIgogICAgcmVjb3Jkc0NvbnRyb2xsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoIEF1ZGl0IHRyYWlsIHJlcXVlc3QiCiAgICBzZXJ2aWNlQ29tcG9uZW50IC0+IHJhYmJpdENvbnRhaW5lciAiSGFuZGxlIERvbWFpbkV2ZW50c1JlcXVlc3QgTWVzc2FnZSIKICAgIHNlcnZpY2VDb21wb25lbnQgLT4gc3FsQ29udGFpbmVyICJSZWFkIFRlbmFudCIKCgogICAgc2VydmljZUNvbXBvbmVudCAtPiBkeW5hbW9EYkNvbnRhaW5lciAiUmVhZCBBdWRpdCBUcmFpbCBFdmVudHMiCiAgICBzZXJ2aWNlQ29tcG9uZW50IC0+IHNxbENvbnRhaW5lciAiUmVhZCBBdWRpdCBUcmFpbCBFdmVudHMiCiAgICBzZXJ2aWNlQ29tcG9uZW50IC0+IHJhYmJpdENvbnRhaW5lciAiUHVibGlzaCBBdWRpdCBUcmFpbCBSZXNwb25jZSBNZXNzYWdlIG9uIFRlbXAgUXVldWUiCiAgICByYWJiaXRDb250YWluZXIgLT4gcmVjb3Jkc0NvbnRyb2xsZXJDb21wb25lbnQgIlJlY2VpdmUgQXVkaXQgdHJhaWwgbWVzc2FnZSBFdmVudCIKICAgIHJlY29yZHNDb250cm9sbGVyQ29tcG9uZW50IC0+IG5naW54Q29udGFpbmVyICJSZXJ0dXJuIEF1ZGl0IFRyYWlsIgogICAgbmdpbnhDb250YWluZXIgLT4gd2ViYXBwICJSZXR1cm4gQXVkaXQgVHJhaWwiICAgIAp9CmR5bmFtaWMgYXBpQ29udGFpbmVyICJQYXNzd29yZFJlc2V0UmVxdWVzdCIgIlBhc3N3b3JkIFJlc2V0IFdvcmtmbG93IiB7CiAgICB3ZWJhcHAgLT4gbmdpbnhDb250YWluZXIgIlBhc3N3b3JkIFJlc2V0IFJlcXVlc3QiCiAgICBuZ2lueENvbnRhaW5lciAtPiBwYXNzd29yZENoYW5nZUNvbnRyb2xsZXJDb21wb25lbnQgIkZvcndhcmQ6IFBhc3N3b3JkIFJlc2V0IFJlcXVlc3QiICAgICAgICAgICAgICAgICAgIAogICAgcGFzc3dvcmRDaGFuZ2VDb250cm9sbGVyQ29tcG9uZW50IC0+IHNxbENvbnRhaW5lciAiR2V0IFVzZXIiICAgICAgICAgICAgCiAgICBwYXNzd29yZENoYW5nZUNvbnRyb2xsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoOiBUZW5hbnQgUGFzc3dvcmQgUmVzZXQgUmVxdWVzdCBFdmVudCB0byBRdWV1ZSBYNS5BZG1pbi5NZXNzYWdlcy5UZW5hbnRQYXNzd29yZFJlc2V0UmVxdWVzdEV2ZW50IgogICAgcGFzc3dvcmRSZXNldEhhbmRsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJIYW5kbGU6IFRlbmFudCBQYXNzd29yZCBSZXNldCBSZXF1ZXN0IEV2ZW50IGZyb20gUXVldWUgWDUuQWRtaW4uTWVzc2FnZXMuVGVuYW50UGFzc3dvcmRSZXNldFJlcXVlc3RFdmVudCIgICAgICAgICAgICAgICAgICAgICAgCiAgICBwYXNzd29yZFJlc2V0SGFuZGxlckNvbXBvbmVudCAtPiBzcWxDb250YWluZXIgIkdldCBVc2VyIiAgICAgICAgICAgIAogICAgcGFzc3dvcmRSZXNldEhhbmRsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJQdWJsaXNoOiBTZW5kIFJlc2V0IFBhc3N3b3JkIFRlbXBsYXRlIENvbW1hbmQgdG8gUXVldWUgWDUuU2hhcmVkLk1lc3NhZ2VzLlNlbmRSZXNldFBhc3N3b3JkVGVtcGxhdGVDb21tYW5kIgogICAgcGFzc3dvcmRSZXNldEhhbmRsZXJDb21wb25lbnQgLT4gc3FsQ29udGFpbmVyICJVcGRhdGUgVXNlciIgICAgICAgICAgICAKICAgIHNlbmRFbWFpbEhhbmRsZXJDb21wb25lbnQgLT4gcmFiYml0Q29udGFpbmVyICJIYW5kbGU6IFNlbmQgUmVzZXQgUGFzc3dvcmQgVGVtcGxhdGUgQ29tbWFuZCBmcm9tIFF1ZXVlIFg1LlNoYXJlZC5NZXNzYWdlcy5TZW5kUmVzZXRQYXNzd29yZFRlbXBsYXRlQ29tbWFuZCIKICAgIHNlbmRFbWFpbEhhbmRsZXJDb21wb25lbnQgLT4gc3FsQ29udGFpbmVyICJHZXQgQmxhY2tsaXN0IiAgICAgICAgICAgIAogICAgc2VuZEVtYWlsSGFuZGxlckNvbXBvbmVudCAtPiBzZXNTeXN0ZW0gIlNlbmQgRW1haWwgdXNpbmcgVGVtcGxhdGUiICAKfQpkeW5hbWljIGFwaUNvbnRhaW5lciAiTEFQTmF2aWdhdGlvbkludGVncmF0aW9uIiAiWDUgdG8gTEFQIG5hdmlnYXRpb24gaW50ZWdyYXRpb24iIHsKICAgIHRpdGxlICJYNSB0byBMQVAgbmF2aWdhdGlvbiBpbnRlZ3JhdGlvbiIKICAgIGRlc2NyaXB0aW9uICJUaGUgcmVkaXJlY3Rpb24gdGhhdCB1c2VzIFNTTyBtZWNoYW5pc20sIHNvIExBUCBkb2VzIG5vdCBwcm9tcHQgYSB1c2VyIGZvciBjcmVkZW50aWFscyBvbmNlIGl0J3MgYXV0aG9yaXplZCBhdCBYNSIKICAgIGZyb250ZW5kQ29udGFpbmVyIC0+IGxhcFJlZGlyZWN0aW9uQ29udHJvbGxlckNvbXBvbmVudCAiUmVkaXJlY3Rpb24gYWZ0ZXIgQ0xJQ0sgb24gTEFQIHVybCIKICAgIGxhcFJlZGlyZWN0aW9uQ29udHJvbGxlckNvbXBvbmVudCAtPiBsYXBKd3RDb250cm9sbGVyQ29tcG9uZW50ICJBY3F1aXJlIHRva2VuIGZvciBhIGdpdmVuIHVzZXIgSUQiCiAgICBsYXBKd3RDb250cm9sbGVyQ29tcG9uZW50IC0+IGxhcFJlZGlyZWN0aW9uQ29udHJvbGxlckNvbXBvbmVudCAiUmV0dXJuIGJlYXJlciB0b2tlbiB3aXRoIHRoZSB1c2VyIElEIGluY2x1ZGVkIgogICAgbGFwUmVkaXJlY3Rpb25Db250cm9sbGVyQ29tcG9uZW50IC0+IGxpdmVBc3NldHNTeXN0ZW0gIlJlZGlyZWN0aW9uIHdpdGggdGhlIGFjcXVpcmVkIGJlYXJlciB0b2tlbiAoaWRlYWxseSBpbiB0aGUgaHR0cCBoZWFkZXJzIGJ1dCBldmVudHVhbGx5IGNhbiBiZSBpbiBhbiB1cmwgcXVlcnkgcGFyYW1ldGVycykiCn0KCiAgICAgICAgdGhlbWUgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjAuMDQuMzAvdGhlbWUuanNvbgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgICAgICB0aGVtZSBodHRwOi8vMTI3LjAuMC4xOjgwNzAvYXNzZXRzL3RoZW1lLmpzb24KICAgIH0KfQo="
+  },
+  "configuration": {},
+  "model": {
+    "people": [
+      {
+        "id": "9",
+        "tags": "Element,Person",
+        "properties": {
+          "structurizr.dsl.identifier": "requestuser"
+        },
+        "name": "Requester User",
+        "description": "Limited User",
+        "relationships": [
+          {
+            "id": "73",
+            "sourceId": "9",
+            "destinationId": "11",
+            "description": "Uses",
+            "linkedRelationshipId": "72"
+          },
+          {
+            "id": "72",
+            "tags": "Relationship",
+            "sourceId": "9",
+            "destinationId": "12",
+            "description": "Uses"
+          },
+          {
+            "id": "90",
+            "tags": "Relationship",
+            "sourceId": "9",
+            "destinationId": "15",
+            "description": "Uses"
+          }
+        ],
+        "group": "eMaint X5 system boundary",
+        "location": "Unspecified"
+      },
+      {
+        "id": "10",
+        "tags": "Element,Person",
+        "properties": {
+          "structurizr.dsl.identifier": "adminuser"
+        },
+        "name": "System Admin User",
+        "description": "Super User",
+        "relationships": [
+          {
+            "id": "69",
+            "sourceId": "10",
+            "destinationId": "11",
+            "description": "Uses",
+            "linkedRelationshipId": "68"
+          },
+          {
+            "id": "88",
+            "tags": "Relationship",
+            "sourceId": "10",
+            "destinationId": "14",
+            "description": "Uses"
+          },
+          {
+            "id": "68",
+            "tags": "Relationship",
+            "sourceId": "10",
+            "destinationId": "12",
+            "description": "Uses"
+          }
+        ],
+        "group": "eMaint X5 system boundary",
+        "location": "Unspecified"
+      },
+      {
+        "id": "8",
+        "tags": "Element,Person",
+        "properties": {
+          "structurizr.dsl.identifier": "tenantuser"
+        },
+        "name": "Tenant User",
+        "description": "Standard User",
+        "relationships": [
+          {
+            "id": "89",
+            "tags": "Relationship",
+            "sourceId": "8",
+            "destinationId": "13",
+            "description": "Uses"
+          },
+          {
+            "id": "70",
+            "tags": "Relationship",
+            "sourceId": "8",
+            "destinationId": "12",
+            "description": "Uses"
+          },
+          {
+            "id": "71",
+            "sourceId": "8",
+            "destinationId": "11",
+            "description": "Uses",
+            "linkedRelationshipId": "70"
+          },
+          {
+            "id": "75",
+            "tags": "Relationship",
+            "sourceId": "8",
+            "destinationId": "1",
+            "description": "Sends an email"
+          }
+        ],
+        "location": "Unspecified"
+      }
+    ],
+    "softwareSystems": [
+      {
+        "id": "11",
+        "tags": "Element,Software System,eMaint",
+        "properties": {
+          "structurizr.dsl.identifier": "x5system"
+        },
+        "name": "eMaint X5 (CMMS System)",
+        "description": "Maintenance software for workorder, inventory, asset and team management",
+        "relationships": [
+          {
+            "id": "84",
+            "tags": "Relationship",
+            "sourceId": "11",
+            "destinationId": "6",
+            "description": "Notifies"
+          },
+          {
+            "id": "85",
+            "tags": "Relationship",
+            "sourceId": "11",
+            "destinationId": "7",
+            "description": "Notifies"
+          },
+          {
+            "id": "152",
+            "tags": "Relationship",
+            "sourceId": "11",
+            "destinationId": "3"
+          },
+          {
+            "id": "59",
+            "sourceId": "11",
+            "destinationId": "4",
+            "description": "Redirection with the acquired bearer token (ideally in the http headers but eventually can be in an url query parameters)",
+            "linkedRelationshipId": "57"
+          },
+          {
+            "id": "86",
+            "tags": "Relationship",
+            "sourceId": "11",
+            "destinationId": "2",
+            "description": "Fetches Assets & Pushes Open Workorders"
+          },
+          {
+            "id": "83",
+            "tags": "Relationship",
+            "sourceId": "11",
+            "destinationId": "5",
+            "description": "Notifies"
+          },
+          {
+            "id": "87",
+            "tags": "Relationship",
+            "sourceId": "11",
+            "destinationId": "1",
+            "description": "Send"
+          }
+        ],
+        "group": "eMaint X5 system boundary",
+        "location": "Unspecified",
+        "containers": [
+          {
+            "id": "38",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "microservicesconnectorcontainer"
+            },
+            "name": "Microservices Contector Service",
+            "description": "X5.Microservices.Service",
+            "relationships": [
+              {
+                "id": "117",
+                "tags": "Relationship",
+                "sourceId": "38",
+                "destinationId": "26",
+                "description": "Read"
+              },
+              {
+                "id": "103",
+                "tags": "Relationship",
+                "sourceId": "38",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "17",
+            "tags": "Element,Container,Api",
+            "properties": {
+              "structurizr.dsl.identifier": "apicontainer"
+            },
+            "name": "X5.Api",
+            "description": "Primary Backend Api",
+            "relationships": [
+              {
+                "id": "64",
+                "sourceId": "17",
+                "destinationId": "26",
+                "description": "Read",
+                "linkedRelationshipId": "63"
+              },
+              {
+                "id": "66",
+                "sourceId": "17",
+                "destinationId": "24",
+                "description": "Publish",
+                "linkedRelationshipId": "65"
+              },
+              {
+                "id": "58",
+                "sourceId": "17",
+                "destinationId": "4",
+                "description": "Redirection with the acquired bearer token (ideally in the http headers but eventually can be in an url query parameters)",
+                "linkedRelationshipId": "57"
+              }
+            ],
+            "technology": "IHost",
+            "components": [
+              {
+                "id": "18",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "passwordchangecontrollercomponent"
+                },
+                "name": "Password Change Controller",
+                "description": "X5.Admin.WebApi.Controllers.PasswordChangeController",
+                "relationships": [
+                  {
+                    "id": "63",
+                    "tags": "Relationship",
+                    "sourceId": "18",
+                    "destinationId": "26",
+                    "description": "Read"
+                  },
+                  {
+                    "id": "65",
+                    "tags": "Relationship",
+                    "sourceId": "18",
+                    "destinationId": "24",
+                    "description": "Publish"
+                  }
+                ],
+                "technology": "Controller",
+                "documentation": {}
+              },
+              {
+                "id": "21",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "lapredirectioncontrollercomponent"
+                },
+                "name": "LAP Controller",
+                "description": "X5.Cmms.WebApi.Controllers.LapRedirectionController",
+                "relationships": [
+                  {
+                    "id": "55",
+                    "tags": "Relationship",
+                    "sourceId": "21",
+                    "destinationId": "22",
+                    "description": "Acquire token for a given user ID"
+                  },
+                  {
+                    "id": "57",
+                    "tags": "Relationship",
+                    "sourceId": "21",
+                    "destinationId": "4",
+                    "description": "Redirection with the acquired bearer token (ideally in the http headers but eventually can be in an url query parameters)"
+                  }
+                ],
+                "technology": "Controller",
+                "documentation": {}
+              },
+              {
+                "id": "20",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "recordscontrollercomponent"
+                },
+                "name": "Records Controller",
+                "description": "X5.Cmms.WebApi.Controllers.RecordsController",
+                "relationships": [
+                  {
+                    "id": "126",
+                    "tags": "Relationship",
+                    "sourceId": "20",
+                    "destinationId": "26",
+                    "description": "Read"
+                  },
+                  {
+                    "id": "67",
+                    "tags": "Relationship",
+                    "sourceId": "20",
+                    "destinationId": "24",
+                    "description": "Publish & Subscribe"
+                  }
+                ],
+                "technology": "Controller",
+                "documentation": {}
+              },
+              {
+                "id": "22",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "lapjwtcontrollercomponent"
+                },
+                "name": "LAP JWT Security Controller",
+                "description": "X5.Cmms.WebApi.Controllers.LapSecurityController",
+                "relationships": [
+                  {
+                    "id": "56",
+                    "tags": "Relationship",
+                    "sourceId": "22",
+                    "destinationId": "21",
+                    "description": "Return bearer token with the user ID included"
+                  }
+                ],
+                "technology": "Controller",
+                "documentation": {}
+              },
+              {
+                "id": "19",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "tenantsessioncontrollercomponent"
+                },
+                "name": "Tenant Session Controller",
+                "description": "X5.Shared.WebApi.Controllers.TenantSessionController",
+                "technology": "Controller",
+                "documentation": {}
+              }
+            ],
+            "documentation": {}
+          },
+          {
+            "id": "16",
+            "tags": "Element,Container,Nginx",
+            "properties": {
+              "structurizr.dsl.identifier": "nginxcontainer"
+            },
+            "name": "Nginx Reverse Proxy",
+            "description": "Injects Http Header, like 'Content-Security-Policy'",
+            "relationships": [
+              {
+                "id": "78",
+                "tags": "Relationship",
+                "sourceId": "16",
+                "destinationId": "23",
+                "description": "Forward",
+                "technology": "JSON/HTTPS"
+              },
+              {
+                "id": "61",
+                "sourceId": "16",
+                "destinationId": "17",
+                "description": "Forward",
+                "linkedRelationshipId": "60"
+              },
+              {
+                "id": "60",
+                "tags": "Relationship",
+                "sourceId": "16",
+                "destinationId": "18",
+                "description": "Forward"
+              },
+              {
+                "id": "62",
+                "tags": "Relationship",
+                "sourceId": "16",
+                "destinationId": "20",
+                "description": "Forward"
+              }
+            ],
+            "technology": "Nginx",
+            "documentation": {}
+          },
+          {
+            "id": "41",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "domaineventscontainer"
+            },
+            "name": "Audit Trail Service",
+            "description": "X5.DomainEvents.Service",
+            "relationships": [
+              {
+                "id": "127",
+                "tags": "Relationship",
+                "sourceId": "41",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "132",
+                "sourceId": "41",
+                "destinationId": "51",
+                "linkedRelationshipId": "131"
+              },
+              {
+                "id": "128",
+                "tags": "Relationship",
+                "sourceId": "41",
+                "destinationId": "26",
+                "description": "Read"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "components": [
+              {
+                "id": "42",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "servicecomponent"
+                },
+                "name": "Domain Events Service",
+                "description": "Handle Domain Events Service",
+                "relationships": [
+                  {
+                    "id": "130",
+                    "tags": "Relationship",
+                    "sourceId": "42",
+                    "destinationId": "26"
+                  },
+                  {
+                    "id": "129",
+                    "tags": "Relationship",
+                    "sourceId": "42",
+                    "destinationId": "24"
+                  },
+                  {
+                    "id": "131",
+                    "tags": "Relationship",
+                    "sourceId": "42",
+                    "destinationId": "51"
+                  }
+                ],
+                "technology": "IService",
+                "documentation": {}
+              }
+            ],
+            "documentation": {}
+          },
+          {
+            "id": "43",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "preventivemaintainancecontainer"
+            },
+            "name": "Preventive Maintainance Service",
+            "description": "X5.PreventiveMaintainance.Service",
+            "relationships": [
+              {
+                "id": "135",
+                "tags": "Relationship",
+                "sourceId": "43",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "137",
+                "tags": "Relationship",
+                "sourceId": "43",
+                "destinationId": "38",
+                "description": "Read"
+              },
+              {
+                "id": "136",
+                "tags": "Relationship",
+                "sourceId": "43",
+                "destinationId": "26",
+                "description": "Read"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "27",
+            "tags": "Element,Container,ExternalSystem,AwsS3Bucket",
+            "properties": {
+              "structurizr.dsl.identifier": "s3bucketcontainer"
+            },
+            "name": "AWS S3 Bucket",
+            "description": "Keeps all file and image resource for whole X5 system",
+            "documentation": {}
+          },
+          {
+            "id": "52",
+            "tags": "Element,Container,MongoDb",
+            "properties": {
+              "structurizr.dsl.identifier": "mongodbcontainer"
+            },
+            "name": "MongoDb Scheduled WorkOrders",
+            "description": "Stores Scheduled Work Orders",
+            "technology": "MongoDb",
+            "documentation": {}
+          },
+          {
+            "id": "49",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "trendingmeterscontainer"
+            },
+            "name": "Trending Meter Service",
+            "description": "X5.TrendingMeters.Service",
+            "relationships": [
+              {
+                "id": "146",
+                "tags": "Relationship",
+                "sourceId": "49",
+                "destinationId": "26",
+                "description": "Read"
+              },
+              {
+                "id": "145",
+                "tags": "Relationship",
+                "sourceId": "49",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "34",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "flukecontainer"
+            },
+            "name": "Fluke Service",
+            "description": "X5.Fluke.Service",
+            "relationships": [
+              {
+                "id": "99",
+                "tags": "Relationship",
+                "sourceId": "34",
+                "destinationId": "24",
+                "description": "Subscribe"
+              },
+              {
+                "id": "113",
+                "tags": "Relationship",
+                "sourceId": "34",
+                "destinationId": "26",
+                "description": "Read"
+              },
+              {
+                "id": "108",
+                "tags": "Relationship",
+                "sourceId": "34",
+                "destinationId": "2",
+                "description": "Fetch assets & Pushes Open Workorders"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "25",
+            "tags": "Element,Container,AwsSqs",
+            "properties": {
+              "structurizr.dsl.identifier": "sqsqueue"
+            },
+            "name": "AWS Simple Queue Service",
+            "description": "Receiving emails into X5",
+            "technology": "AWS SQS",
+            "documentation": {}
+          },
+          {
+            "id": "48",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "translatoroutcontainer"
+            },
+            "name": "Message Translation Out Service",
+            "description": "X5.Translator.Out.Service",
+            "relationships": [
+              {
+                "id": "144",
+                "tags": "Relationship",
+                "sourceId": "48",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "40",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "workflowscontainer"
+            },
+            "name": "Workflows Service",
+            "description": "X5.Workflows.Service",
+            "relationships": [
+              {
+                "id": "118",
+                "tags": "Relationship",
+                "sourceId": "40",
+                "destinationId": "26",
+                "description": "Read & Write"
+              },
+              {
+                "id": "104",
+                "tags": "Relationship",
+                "sourceId": "40",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "51",
+            "tags": "Element,Container,DynamoDb",
+            "properties": {
+              "structurizr.dsl.identifier": "dynamodbcontainer"
+            },
+            "name": "DyanamoDB Audit Trail Datastore",
+            "description": "Keeps all the Audit trail data",
+            "technology": "DynamoDb",
+            "documentation": {}
+          },
+          {
+            "id": "24",
+            "tags": "Element,Container,RabbitMQ",
+            "properties": {
+              "structurizr.dsl.identifier": "rabbitcontainer"
+            },
+            "name": "Messaging Queue",
+            "description": "Rabbit Queues",
+            "technology": "RabbitMQ",
+            "documentation": {}
+          },
+          {
+            "id": "12",
+            "tags": "Element,Container,JS,WebBrowser",
+            "properties": {
+              "structurizr.dsl.identifier": "frontendcontainer"
+            },
+            "name": "X5 Primary UI Application",
+            "description": "UI/QueryBuilder",
+            "relationships": [
+              {
+                "id": "53",
+                "tags": "Relationship",
+                "sourceId": "12",
+                "destinationId": "21",
+                "description": "Redirection after CLICK on LAP url"
+              },
+              {
+                "id": "54",
+                "sourceId": "12",
+                "destinationId": "17",
+                "description": "Redirection after CLICK on LAP url",
+                "linkedRelationshipId": "53"
+              },
+              {
+                "id": "80",
+                "sourceId": "12",
+                "destinationId": "16",
+                "description": "Request",
+                "technology": "JSON/HTTPS",
+                "linkedRelationshipId": "79"
+              }
+            ],
+            "technology": "React/Typescript application",
+            "components": [
+              {
+                "id": "13",
+                "tags": "Element,Component,JS,WebBrowser",
+                "properties": {
+                  "structurizr.dsl.identifier": "webapp"
+                },
+                "name": "Web Application",
+                "relationships": [
+                  {
+                    "id": "79",
+                    "tags": "Relationship",
+                    "sourceId": "13",
+                    "destinationId": "16",
+                    "description": "Request",
+                    "technology": "JSON/HTTPS"
+                  }
+                ],
+                "technology": "React/Typescript application",
+                "documentation": {}
+              },
+              {
+                "id": "15",
+                "tags": "Element,Component,JS,WebBrowser",
+                "properties": {
+                  "structurizr.dsl.identifier": "requesterapp"
+                },
+                "name": "Requester Application",
+                "relationships": [
+                  {
+                    "id": "82",
+                    "tags": "Relationship",
+                    "sourceId": "15",
+                    "destinationId": "16",
+                    "description": "Request",
+                    "technology": "JSON/HTTPS"
+                  }
+                ],
+                "technology": "React/Typescript application",
+                "documentation": {}
+              },
+              {
+                "id": "14",
+                "tags": "Element,Component,JS,WebBrowser",
+                "properties": {
+                  "structurizr.dsl.identifier": "adminapp"
+                },
+                "name": "Administration Application",
+                "relationships": [
+                  {
+                    "id": "81",
+                    "tags": "Relationship",
+                    "sourceId": "14",
+                    "destinationId": "16",
+                    "description": "Request",
+                    "technology": "JSON/HTTPS"
+                  }
+                ],
+                "technology": "React/Typescript application",
+                "documentation": {}
+              }
+            ],
+            "documentation": {}
+          },
+          {
+            "id": "35",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "integrationscontainer"
+            },
+            "name": "Integrations Push Service",
+            "description": "X5.Integration.Push.Service",
+            "relationships": [
+              {
+                "id": "91",
+                "tags": "Relationship",
+                "sourceId": "35",
+                "destinationId": "5",
+                "description": "Pushes notifications"
+              },
+              {
+                "id": "100",
+                "tags": "Relationship",
+                "sourceId": "35",
+                "destinationId": "24",
+                "description": "Subscribe"
+              },
+              {
+                "id": "114",
+                "tags": "Relationship",
+                "sourceId": "35",
+                "destinationId": "26",
+                "description": "Read"
+              },
+              {
+                "id": "92",
+                "tags": "Relationship",
+                "sourceId": "35",
+                "destinationId": "6",
+                "description": "Pushes notifications"
+              },
+              {
+                "id": "93",
+                "tags": "Relationship",
+                "sourceId": "35",
+                "destinationId": "7",
+                "description": "Pushes notifications"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "26",
+            "tags": "Element,Container,SQLServer",
+            "properties": {
+              "structurizr.dsl.identifier": "sqlcontainer"
+            },
+            "name": "X5 Datastore",
+            "description": "Keeps all the data for whole X5 system",
+            "technology": "MSSQLServer",
+            "documentation": {}
+          },
+          {
+            "id": "39",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "schedulingcontainer"
+            },
+            "name": "Scheduling Service",
+            "description": "X5.Scheduling.Service",
+            "relationships": [
+              {
+                "id": "97",
+                "tags": "Relationship",
+                "sourceId": "39",
+                "destinationId": "24",
+                "description": "Publish"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "47",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "translatorincontainer"
+            },
+            "name": "Message Translation In Service",
+            "description": "X5.Translator.In.Service",
+            "relationships": [
+              {
+                "id": "143",
+                "tags": "Relationship",
+                "sourceId": "47",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "37",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "liveasseteventscontainer"
+            },
+            "name": "Live Asset Events Service",
+            "description": "X5.LiveAssetsEvents.Service",
+            "relationships": [
+              {
+                "id": "102",
+                "tags": "Relationship",
+                "sourceId": "37",
+                "destinationId": "24",
+                "description": "Publish"
+              },
+              {
+                "id": "116",
+                "tags": "Relationship",
+                "sourceId": "37",
+                "destinationId": "26",
+                "description": "Read & Write"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "36",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "inventorycontainer"
+            },
+            "name": "Inventory Service",
+            "description": "X5.Inventory.Service",
+            "relationships": [
+              {
+                "id": "115",
+                "tags": "Relationship",
+                "sourceId": "36",
+                "destinationId": "26",
+                "description": "Read & Write"
+              },
+              {
+                "id": "101",
+                "tags": "Relationship",
+                "sourceId": "36",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "44",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "relatedrecordscontainer"
+            },
+            "name": "Related Records Service",
+            "description": "X5.RelatedRecords.Service",
+            "relationships": [
+              {
+                "id": "139",
+                "tags": "Relationship",
+                "sourceId": "44",
+                "destinationId": "26",
+                "description": "Read & Write"
+              },
+              {
+                "id": "138",
+                "tags": "Relationship",
+                "sourceId": "44",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "30",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "cmmscontainer"
+            },
+            "name": "Cmms Service",
+            "description": "X5.Cmms.Service",
+            "relationships": [
+              {
+                "id": "112",
+                "tags": "Relationship",
+                "sourceId": "30",
+                "destinationId": "26",
+                "description": "Read & Write"
+              },
+              {
+                "id": "96",
+                "tags": "Relationship",
+                "sourceId": "30",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "106",
+                "tags": "Relationship",
+                "sourceId": "30",
+                "destinationId": "27",
+                "description": "Moves Blobs"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "45",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "rimerankingcontainer"
+            },
+            "name": "Rime Ranking Service",
+            "description": "X5.RimeRanking.Service",
+            "relationships": [
+              {
+                "id": "141",
+                "tags": "Relationship",
+                "sourceId": "45",
+                "destinationId": "26",
+                "description": "Read"
+              },
+              {
+                "id": "140",
+                "tags": "Relationship",
+                "sourceId": "45",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "142",
+                "tags": "Relationship",
+                "sourceId": "45",
+                "destinationId": "38",
+                "description": "Read"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "31",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "dataimportcontainer"
+            },
+            "name": "Data Import Service",
+            "description": "X5.DataImport.Service",
+            "relationships": [
+              {
+                "id": "98",
+                "tags": "Relationship",
+                "sourceId": "31",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "111",
+                "tags": "Relationship",
+                "sourceId": "31",
+                "destinationId": "26",
+                "description": "Read & Write"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "32",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "emailcontainer"
+            },
+            "name": "Email Service",
+            "description": "X5.Email.Service",
+            "relationships": [
+              {
+                "id": "107",
+                "tags": "Relationship",
+                "sourceId": "32",
+                "destinationId": "25",
+                "description": "Pull (polling)"
+              },
+              {
+                "id": "110",
+                "tags": "Relationship",
+                "sourceId": "32",
+                "destinationId": "26",
+                "description": "Read"
+              },
+              {
+                "id": "119",
+                "tags": "Relationship",
+                "sourceId": "32",
+                "destinationId": "1",
+                "description": "Send"
+              },
+              {
+                "id": "95",
+                "tags": "Relationship",
+                "sourceId": "32",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "components": [
+              {
+                "id": "33",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "sendemailhandlercomponent"
+                },
+                "name": "Send Email Handler",
+                "description": "X5.Email.Handlers.SendEmailHandler",
+                "relationships": [
+                  {
+                    "id": "123",
+                    "tags": "Relationship",
+                    "sourceId": "33",
+                    "destinationId": "24",
+                    "description": "Subscribe"
+                  },
+                  {
+                    "id": "125",
+                    "tags": "Relationship",
+                    "sourceId": "33",
+                    "destinationId": "26",
+                    "description": "Read"
+                  },
+                  {
+                    "id": "124",
+                    "tags": "Relationship",
+                    "sourceId": "33",
+                    "destinationId": "1",
+                    "description": "Send"
+                  }
+                ],
+                "documentation": {}
+              }
+            ],
+            "documentation": {}
+          },
+          {
+            "id": "23",
+            "tags": "Element,Container,Api",
+            "properties": {
+              "structurizr.dsl.identifier": "devexpressapicontainer"
+            },
+            "name": "X5.DevExpress.Api",
+            "description": "Manages Dashboard v2 Interactions",
+            "technology": "IHost",
+            "documentation": {}
+          },
+          {
+            "id": "28",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "admincontainer"
+            },
+            "name": "Admin Service",
+            "description": "X5.Admin.Service",
+            "relationships": [
+              {
+                "id": "94",
+                "tags": "Relationship",
+                "sourceId": "28",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "105",
+                "tags": "Relationship",
+                "sourceId": "28",
+                "destinationId": "27",
+                "description": "Deletes or Copies a new resources"
+              },
+              {
+                "id": "109",
+                "tags": "Relationship",
+                "sourceId": "28",
+                "destinationId": "26",
+                "description": "Read & Write"
+              }
+            ],
+            "group": "X5 Core Services",
+            "technology": "BackgroundService",
+            "components": [
+              {
+                "id": "29",
+                "tags": "Element,Component",
+                "properties": {
+                  "structurizr.dsl.identifier": "passwordresethandlercomponent"
+                },
+                "name": "Tenant Password Reset Request Handler",
+                "description": "X5.Admin.Handlers.TenantPasswordResetRequestHandler",
+                "relationships": [
+                  {
+                    "id": "122",
+                    "tags": "Relationship",
+                    "sourceId": "29",
+                    "destinationId": "26",
+                    "description": "Read & Write"
+                  },
+                  {
+                    "id": "120",
+                    "tags": "Relationship",
+                    "sourceId": "29",
+                    "destinationId": "24",
+                    "description": "Subscribe"
+                  },
+                  {
+                    "id": "121",
+                    "tags": "Relationship",
+                    "sourceId": "29",
+                    "destinationId": "24",
+                    "description": "Publish"
+                  }
+                ],
+                "documentation": {}
+              }
+            ],
+            "documentation": {}
+          },
+          {
+            "id": "46",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "schedulercontainer"
+            },
+            "name": "Scheduler Service",
+            "description": "X5.Scheduler.Service",
+            "relationships": [
+              {
+                "id": "133",
+                "tags": "Relationship",
+                "sourceId": "46",
+                "destinationId": "52"
+              },
+              {
+                "id": "134",
+                "tags": "Relationship",
+                "sourceId": "46",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          },
+          {
+            "id": "50",
+            "tags": "Element,Container,Service",
+            "properties": {
+              "structurizr.dsl.identifier": "workordercreationcontainer"
+            },
+            "name": "Work Order Creation Service",
+            "description": "X5.WorkOrderCreation.Service",
+            "relationships": [
+              {
+                "id": "148",
+                "tags": "Relationship",
+                "sourceId": "50",
+                "destinationId": "26",
+                "description": "Read & Write"
+              },
+              {
+                "id": "147",
+                "tags": "Relationship",
+                "sourceId": "50",
+                "destinationId": "24",
+                "description": "Publish & Subscribe"
+              },
+              {
+                "id": "149",
+                "tags": "Relationship",
+                "sourceId": "50",
+                "destinationId": "38",
+                "description": "Read"
+              }
+            ],
+            "group": "X5 Micro services",
+            "technology": "BackgroundService",
+            "documentation": {}
+          }
+        ],
+        "documentation": {}
+      },
+      {
+        "id": "1",
+        "tags": "Element,Software System,AwsSes,ExternalSystem",
+        "properties": {
+          "structurizr.dsl.identifier": "sessystem"
+        },
+        "name": "AWS Simple Email Service",
+        "description": "Sends and Receives emails in X5",
+        "relationships": [
+          {
+            "id": "74",
+            "tags": "Relationship",
+            "sourceId": "1",
+            "destinationId": "8",
+            "description": "Sends email to"
+          },
+          {
+            "id": "77",
+            "sourceId": "1",
+            "destinationId": "11",
+            "description": "Publish",
+            "linkedRelationshipId": "76"
+          },
+          {
+            "id": "76",
+            "tags": "Relationship",
+            "sourceId": "1",
+            "destinationId": "25",
+            "description": "Publish"
+          }
+        ],
+        "location": "Unspecified",
+        "documentation": {}
+      },
+      {
+        "id": "4",
+        "tags": "Element,Software System,ExternalSystem,FlukeLiveAssets",
+        "properties": {
+          "structurizr.dsl.identifier": "liveassetssystem"
+        },
+        "name": "eMaint Condition Monitoring",
+        "description": "Infrared, vibration, temperatur, power-quality, SCADA/PLC with management software",
+        "relationships": [
+          {
+            "id": "150",
+            "tags": "Relationship",
+            "sourceId": "4",
+            "destinationId": "11"
+          }
+        ],
+        "location": "Unspecified",
+        "documentation": {}
+      },
+      {
+        "id": "6",
+        "tags": "Element,Software System,ExternalSystem",
+        "properties": {
+          "structurizr.dsl.identifier": "notificationsystem2"
+        },
+        "name": "HTTP notification system",
+        "location": "Unspecified",
+        "documentation": {}
+      },
+      {
+        "id": "2",
+        "tags": "Element,Software System,ExternalSystem,FlukeConnect",
+        "properties": {
+          "structurizr.dsl.identifier": "flukeconnectsystem"
+        },
+        "name": "Fluke Connect",
+        "description": "Integrated asset data and optimizing maintenance workflows, utilizing device across the enterprise",
+        "location": "Unspecified",
+        "documentation": {}
+      },
+      {
+        "id": "3",
+        "tags": "Element,Software System,ExternalSystem,FlukeMobile",
+        "properties": {
+          "structurizr.dsl.identifier": "flukemobilesystem"
+        },
+        "name": "Fluke Mobile",
+        "description": "Fluke Mobile allows you to manage work orders and work requests, book spare parts, track work hours, and much more",
+        "relationships": [
+          {
+            "id": "151",
+            "tags": "Relationship",
+            "sourceId": "3",
+            "destinationId": "11"
+          }
+        ],
+        "location": "Unspecified",
+        "documentation": {}
+      },
+      {
+        "id": "7",
+        "tags": "Element,Software System,ExternalSystem",
+        "properties": {
+          "structurizr.dsl.identifier": "notificationsystem3"
+        },
+        "name": "OAuth notification system",
+        "location": "Unspecified",
+        "documentation": {}
+      },
+      {
+        "id": "5",
+        "tags": "Element,Software System,ExternalSystem,Slack",
+        "properties": {
+          "structurizr.dsl.identifier": "slacknotificationsystem"
+        },
+        "name": "Slack",
+        "description": "Team Communication",
+        "location": "Unspecified",
+        "documentation": {}
+      }
+    ],
+    "deploymentNodes": [
+      {
+        "id": "153",
+        "tags": "Element,Deployment Node",
+        "name": "EU-WEST-1",
+        "environment": "Dev Environment",
+        "technology": "Microsoft Windows 10 or Apple macOS",
+        "instances": "1",
+        "children": [
+          {
+            "id": "157",
+            "tags": "Element,Deployment Node",
+            "name": "Database Server",
+            "environment": "Dev Environment",
+            "technology": "EC2",
+            "instances": "1",
+            "children": [
+              {
+                "id": "158",
+                "tags": "Element,Deployment Node",
+                "name": "Database Server",
+                "environment": "Dev Environment",
+                "technology": "MS Sql 2019",
+                "instances": "1",
+                "containerInstances": [
+                  {
+                    "id": "159",
+                    "tags": "Container Instance",
+                    "properties": {
+                      "structurizr.dsl.identifier": "devdatabaseinstance"
+                    },
+                    "environment": "Dev Environment",
+                    "deploymentGroups": ["Default"],
+                    "instanceId": 1,
+                    "containerId": "26"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "163",
+            "tags": "Element,Deployment Node",
+            "name": "Api Backend",
+            "environment": "Dev Environment",
+            "technology": "EC2",
+            "instances": "1",
+            "children": [
+              {
+                "id": "164",
+                "tags": "Element,Deployment Node",
+                "name": "Api Backend",
+                "environment": "Dev Environment",
+                "technology": "Fargate",
+                "instances": "1",
+                "containerInstances": [
+                  {
+                    "id": "165",
+                    "tags": "Container Instance",
+                    "properties": {
+                      "structurizr.dsl.identifier": "devapiinstance"
+                    },
+                    "relationships": [
+                      {
+                        "id": "167",
+                        "sourceId": "165",
+                        "destinationId": "162",
+                        "description": "Publish",
+                        "linkedRelationshipId": "66"
+                      },
+                      {
+                        "id": "166",
+                        "sourceId": "165",
+                        "destinationId": "159",
+                        "description": "Read",
+                        "linkedRelationshipId": "64"
+                      }
+                    ],
+                    "environment": "Dev Environment",
+                    "deploymentGroups": ["Default"],
+                    "instanceId": 1,
+                    "containerId": "17"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "154",
+            "tags": "Element,Deployment Node",
+            "name": "Docker Container - Web Server",
+            "environment": "Dev Environment",
+            "technology": "Docker",
+            "instances": "1",
+            "children": [
+              {
+                "id": "155",
+                "tags": "Element,Deployment Node",
+                "name": "Nginx",
+                "environment": "Dev Environment",
+                "technology": "Nginx 1.21.4",
+                "instances": "1",
+                "containerInstances": [
+                  {
+                    "id": "156",
+                    "tags": "Container Instance",
+                    "properties": {
+                      "structurizr.dsl.identifier": "devwebapplicationinstance"
+                    },
+                    "relationships": [
+                      {
+                        "id": "168",
+                        "sourceId": "156",
+                        "destinationId": "165",
+                        "description": "Redirection after CLICK on LAP url",
+                        "linkedRelationshipId": "54"
+                      }
+                    ],
+                    "environment": "Dev Environment",
+                    "deploymentGroups": ["Default"],
+                    "instanceId": 1,
+                    "containerId": "12"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "160",
+            "tags": "Element,Deployment Node",
+            "name": "RabbitMQ Server",
+            "environment": "Dev Environment",
+            "technology": "AmazonMQ",
+            "instances": "1",
+            "children": [
+              {
+                "id": "161",
+                "tags": "Element,Deployment Node",
+                "name": "RabbitMQ Server",
+                "environment": "Dev Environment",
+                "technology": "MS Sql 2019",
+                "instances": "1",
+                "containerInstances": [
+                  {
+                    "id": "162",
+                    "tags": "Container Instance",
+                    "properties": {
+                      "structurizr.dsl.identifier": "devrabbitinstance"
+                    },
+                    "environment": "Dev Environment",
+                    "deploymentGroups": ["Default"],
+                    "instanceId": 1,
+                    "containerId": "24"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "169",
+        "tags": "Element,Deployment Node",
+        "name": "eMaint X5",
+        "environment": "Dev Environment",
+        "technology": "eMaint CMMS System",
+        "instances": "1",
+        "children": [
+          {
+            "id": "170",
+            "tags": "Element,Deployment Node",
+            "name": "cmms-dev001",
+            "environment": "Dev Environment",
+            "instances": "1",
+            "softwareSystemInstances": [
+              {
+                "id": "171",
+                "tags": "Software System Instance",
+                "environment": "Dev Environment",
+                "deploymentGroups": ["Default"],
+                "instanceId": 1,
+                "softwareSystemId": "11"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "properties": {
+      "structurizr.groupSeparator": "~"
+    }
+  },
+  "documentation": {},
+  "views": {
+    "systemLandscapeViews": [
+      {
+        "key": "FRS",
+        "order": 2,
+        "title": "[Landscape] Fluke Reliability systems",
+        "description": "Fluke Reliability",
+        "paperSize": "A5_Landscape",
+        "dimensions": {
+          "width": 2480,
+          "height": 1748
+        },
+        "enterpriseBoundaryVisible": true,
+        "elements": [
+          {
+            "id": "11",
+            "x": 1025,
+            "y": 220
+          },
+          {
+            "id": "2",
+            "x": 1715,
+            "y": 680
+          },
+          {
+            "id": "3",
+            "x": 1025,
+            "y": 975
+          },
+          {
+            "id": "4",
+            "x": 335,
+            "y": 700
+          }
+        ],
+        "relationships": [
+          {
+            "id": "86"
+          },
+          {
+            "id": "152",
+            "vertices": [
+              {
+                "x": 1065,
+                "y": 765
+              }
+            ]
+          },
+          {
+            "id": "151",
+            "vertices": [
+              {
+                "x": 1420,
+                "y": 755
+              }
+            ]
+          },
+          {
+            "id": "150",
+            "vertices": [
+              {
+                "x": 990,
+                "y": 733
+              }
+            ]
+          },
+          {
+            "id": "59",
+            "vertices": [
+              {
+                "x": 819,
+                "y": 486
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "cmss",
+        "order": 1,
+        "title": "[Landscape] eMaint X5 (CMMS System) systems",
+        "description": "eMaint",
+        "paperSize": "A4_Landscape",
+        "dimensions": {
+          "width": 3508,
+          "height": 2480
+        },
+        "enterpriseBoundaryVisible": true,
+        "elements": [
+          {
+            "id": "11",
+            "x": 1375,
+            "y": 1075
+          },
+          {
+            "id": "1",
+            "x": 195,
+            "y": 1085
+          },
+          {
+            "id": "2",
+            "x": 2440,
+            "y": 1630
+          },
+          {
+            "id": "3",
+            "x": 2440,
+            "y": 1182
+          },
+          {
+            "id": "4",
+            "x": 2440,
+            "y": 735
+          },
+          {
+            "id": "5",
+            "x": 1375,
+            "y": 1890
+          },
+          {
+            "id": "6",
+            "x": 830,
+            "y": 1890
+          },
+          {
+            "id": "7",
+            "x": 285,
+            "y": 1890
+          },
+          {
+            "id": "8",
+            "x": 940,
+            "y": 165
+          },
+          {
+            "id": "9",
+            "x": 1885,
+            "y": 175
+          },
+          {
+            "id": "10",
+            "x": 1400,
+            "y": 165
+          }
+        ],
+        "relationships": [
+          {
+            "id": "83"
+          },
+          {
+            "id": "71"
+          },
+          {
+            "id": "86"
+          },
+          {
+            "id": "74",
+            "vertices": [
+              {
+                "x": 430,
+                "y": 1015
+              }
+            ]
+          },
+          {
+            "id": "87",
+            "vertices": [
+              {
+                "x": 1280,
+                "y": 1110
+              }
+            ]
+          },
+          {
+            "id": "152",
+            "vertices": [
+              {
+                "x": 1965,
+                "y": 1340
+              }
+            ]
+          },
+          {
+            "id": "73"
+          },
+          {
+            "id": "84"
+          },
+          {
+            "id": "151",
+            "vertices": [
+              {
+                "x": 2360,
+                "y": 1215
+              }
+            ]
+          },
+          {
+            "id": "85"
+          },
+          {
+            "id": "150",
+            "vertices": [
+              {
+                "x": 2086,
+                "y": 912
+              }
+            ]
+          },
+          {
+            "id": "75",
+            "vertices": [
+              {
+                "x": 1120,
+                "y": 630
+              }
+            ]
+          },
+          {
+            "id": "77",
+            "vertices": [
+              {
+                "x": 740,
+                "y": 1345
+              }
+            ]
+          },
+          {
+            "id": "69"
+          },
+          {
+            "id": "59",
+            "vertices": [
+              {
+                "x": 2178,
+                "y": 1197
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "containerViews": [
+      {
+        "key": "x5Containers",
+        "order": 3,
+        "description": "X5 containers",
+        "softwareSystemId": "11",
+        "dimensions": {
+          "width": 8505,
+          "height": 7061
+        },
+        "externalSoftwareSystemBoundariesVisible": true,
+        "elements": [
+          {
+            "id": "44",
+            "x": 5389,
+            "y": 5564
+          },
+          {
+            "id": "23",
+            "x": 2933,
+            "y": 1556
+          },
+          {
+            "id": "45",
+            "x": 5889,
+            "y": 5564
+          },
+          {
+            "id": "24",
+            "x": 4143,
+            "y": 4883
+          },
+          {
+            "id": "46",
+            "x": 4389,
+            "y": 5565
+          },
+          {
+            "id": "47",
+            "x": 2389,
+            "y": 5564
+          },
+          {
+            "id": "25",
+            "x": 1533,
+            "y": 2608
+          },
+          {
+            "id": "26",
+            "x": 4143,
+            "y": 2418
+          },
+          {
+            "id": "48",
+            "x": 2890,
+            "y": 5564
+          },
+          {
+            "id": "49",
+            "x": 3389,
+            "y": 5564
+          },
+          {
+            "id": "27",
+            "x": 1533,
+            "y": 4318
+          },
+          {
+            "id": "28",
+            "x": 2033,
+            "y": 3383
+          },
+          {
+            "id": "50",
+            "x": 3889,
+            "y": 5564
+          },
+          {
+            "id": "51",
+            "x": 6400,
+            "y": 6450
+          },
+          {
+            "id": "30",
+            "x": 2528,
+            "y": 3383
+          },
+          {
+            "id": "52",
+            "x": 4370,
+            "y": 6450
+          },
+          {
+            "id": "31",
+            "x": 4551,
+            "y": 3383
+          },
+          {
+            "id": "32",
+            "x": 1533,
+            "y": 3383
+          },
+          {
+            "id": "10",
+            "x": 2598,
+            "y": 251
+          },
+          {
+            "id": "12",
+            "x": 2033,
+            "y": 1081
+          },
+          {
+            "id": "34",
+            "x": 6568,
+            "y": 3383
+          },
+          {
+            "id": "35",
+            "x": 5557,
+            "y": 3383
+          },
+          {
+            "id": "36",
+            "x": 6060,
+            "y": 3383
+          },
+          {
+            "id": "37",
+            "x": 5054,
+            "y": 3383
+          },
+          {
+            "id": "16",
+            "x": 2033,
+            "y": 1558
+          },
+          {
+            "id": "38",
+            "x": 3543,
+            "y": 3384
+          },
+          {
+            "id": "17",
+            "x": 2033,
+            "y": 2028
+          },
+          {
+            "id": "39",
+            "x": 3038,
+            "y": 3383
+          },
+          {
+            "id": "1",
+            "x": 458,
+            "y": 3383
+          },
+          {
+            "id": "2",
+            "x": 7289,
+            "y": 3375
+          },
+          {
+            "id": "4",
+            "x": 199,
+            "y": 200
+          },
+          {
+            "id": "5",
+            "x": 7289,
+            "y": 4095
+          },
+          {
+            "id": "6",
+            "x": 7289,
+            "y": 4427
+          },
+          {
+            "id": "7",
+            "x": 7289,
+            "y": 4760
+          },
+          {
+            "id": "8",
+            "x": 1518,
+            "y": 241
+          },
+          {
+            "id": "9",
+            "x": 2058,
+            "y": 241
+          },
+          {
+            "id": "40",
+            "x": 4048,
+            "y": 3383
+          },
+          {
+            "id": "41",
+            "x": 6379,
+            "y": 5564
+          },
+          {
+            "id": "43",
+            "x": 4889,
+            "y": 5564
+          }
+        ],
+        "relationships": [
+          {
+            "id": "70"
+          },
+          {
+            "id": "93",
+            "vertices": [
+              {
+                "x": 5928,
+                "y": 4408
+              }
+            ]
+          },
+          {
+            "id": "72"
+          },
+          {
+            "id": "91",
+            "vertices": [
+              {
+                "x": 6038,
+                "y": 4153
+              }
+            ]
+          },
+          {
+            "id": "74",
+            "vertices": [
+              {
+                "x": 685,
+                "y": 1146
+              }
+            ]
+          },
+          {
+            "id": "97"
+          },
+          {
+            "id": "76"
+          },
+          {
+            "id": "95",
+            "vertices": [
+              {
+                "x": 1759,
+                "y": 3766
+              }
+            ]
+          },
+          {
+            "id": "119"
+          },
+          {
+            "id": "111",
+            "vertices": [
+              {
+                "x": 4718,
+                "y": 3293
+              }
+            ]
+          },
+          {
+            "id": "134"
+          },
+          {
+            "id": "113",
+            "vertices": [
+              {
+                "x": 6778,
+                "y": 3298
+              }
+            ]
+          },
+          {
+            "id": "132"
+          },
+          {
+            "id": "138",
+            "vertices": [
+              {
+                "x": 5479,
+                "y": 5375
+              }
+            ]
+          },
+          {
+            "id": "115",
+            "vertices": [
+              {
+                "x": 6238,
+                "y": 3308
+              }
+            ]
+          },
+          {
+            "id": "136",
+            "vertices": [
+              {
+                "x": 5120,
+                "y": 6160
+              },
+              {
+                "x": 8145,
+                "y": 6205
+              },
+              {
+                "x": 8140,
+                "y": 2795
+              }
+            ]
+          },
+          {
+            "id": "117"
+          },
+          {
+            "id": "141",
+            "vertices": [
+              {
+                "x": 6124,
+                "y": 6036
+              },
+              {
+                "x": 8000,
+                "y": 6060
+              },
+              {
+                "x": 8005,
+                "y": 2890
+              }
+            ]
+          },
+          {
+            "id": "64"
+          },
+          {
+            "id": "107"
+          },
+          {
+            "id": "109",
+            "vertices": [
+              {
+                "x": 2288,
+                "y": 3308
+              }
+            ]
+          },
+          {
+            "id": "145",
+            "vertices": [
+              {
+                "x": 3974,
+                "y": 5305
+              }
+            ]
+          },
+          {
+            "id": "78"
+          },
+          {
+            "id": "143",
+            "vertices": [
+              {
+                "x": 3499,
+                "y": 5195
+              }
+            ]
+          },
+          {
+            "id": "99"
+          },
+          {
+            "id": "101"
+          },
+          {
+            "id": "149",
+            "vertices": [
+              {
+                "x": 4064,
+                "y": 5445
+              }
+            ]
+          },
+          {
+            "id": "103"
+          },
+          {
+            "id": "128",
+            "vertices": [
+              {
+                "x": 6709,
+                "y": 5966
+              },
+              {
+                "x": 7935,
+                "y": 5980
+              },
+              {
+                "x": 7940,
+                "y": 2945
+              }
+            ]
+          },
+          {
+            "id": "147",
+            "vertices": [
+              {
+                "x": 4279,
+                "y": 5390
+              }
+            ]
+          },
+          {
+            "id": "105"
+          },
+          {
+            "id": "94"
+          },
+          {
+            "id": "92",
+            "vertices": [
+              {
+                "x": 5983,
+                "y": 4273
+              }
+            ]
+          },
+          {
+            "id": "98"
+          },
+          {
+            "id": "75",
+            "vertices": [
+              {
+                "x": 1221,
+                "y": 1900
+              }
+            ]
+          },
+          {
+            "id": "54"
+          },
+          {
+            "id": "96"
+          },
+          {
+            "id": "118"
+          },
+          {
+            "id": "110",
+            "vertices": [
+              {
+                "x": 1943,
+                "y": 3258
+              }
+            ]
+          },
+          {
+            "id": "66",
+            "vertices": [
+              {
+                "x": 1169,
+                "y": 2419
+              },
+              {
+                "x": 1118,
+                "y": 5059
+              }
+            ]
+          },
+          {
+            "id": "135",
+            "vertices": [
+              {
+                "x": 4894,
+                "y": 5400
+              }
+            ]
+          },
+          {
+            "id": "68"
+          },
+          {
+            "id": "112",
+            "vertices": [
+              {
+                "x": 2828,
+                "y": 3288
+              }
+            ]
+          },
+          {
+            "id": "133"
+          },
+          {
+            "id": "114",
+            "vertices": [
+              {
+                "x": 5728,
+                "y": 3293
+              }
+            ]
+          },
+          {
+            "id": "139",
+            "vertices": [
+              {
+                "x": 5635,
+                "y": 6095
+              },
+              {
+                "x": 8065,
+                "y": 6135
+              },
+              {
+                "x": 8070,
+                "y": 2840
+              }
+            ]
+          },
+          {
+            "id": "116",
+            "vertices": [
+              {
+                "x": 5203,
+                "y": 3298
+              }
+            ]
+          },
+          {
+            "id": "137",
+            "vertices": [
+              {
+                "x": 5039,
+                "y": 5385
+              }
+            ]
+          },
+          {
+            "id": "61",
+            "vertices": [
+              {
+                "x": 2108,
+                "y": 1941
+              }
+            ]
+          },
+          {
+            "id": "80"
+          },
+          {
+            "id": "142"
+          },
+          {
+            "id": "140",
+            "vertices": [
+              {
+                "x": 5389,
+                "y": 5130
+              }
+            ]
+          },
+          {
+            "id": "108"
+          },
+          {
+            "id": "100"
+          },
+          {
+            "id": "146",
+            "vertices": [
+              {
+                "x": 3660,
+                "y": 6315
+              },
+              {
+                "x": 8270,
+                "y": 6320
+              },
+              {
+                "x": 8260,
+                "y": 2695
+              }
+            ]
+          },
+          {
+            "id": "102"
+          },
+          {
+            "id": "58"
+          },
+          {
+            "id": "144",
+            "vertices": [
+              {
+                "x": 3664,
+                "y": 5285
+              }
+            ]
+          },
+          {
+            "id": "104"
+          },
+          {
+            "id": "127",
+            "vertices": [
+              {
+                "x": 6033,
+                "y": 5014
+              }
+            ]
+          },
+          {
+            "id": "106",
+            "vertices": [
+              {
+                "x": 2749,
+                "y": 3786
+              }
+            ]
+          },
+          {
+            "id": "148",
+            "vertices": [
+              {
+                "x": 4085,
+                "y": 6230
+              },
+              {
+                "x": 8205,
+                "y": 6265
+              },
+              {
+                "x": 8205,
+                "y": 2745
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dynamicViews": [
+      {
+        "key": "LAPNavigationIntegration",
+        "order": 7,
+        "title": "X5 to LAP navigation integration",
+        "description": "The redirection that uses SSO mechanism, so LAP does not prompt a user for credentials once it's authorized at X5",
+        "paperSize": "A4_Landscape",
+        "dimensions": {
+          "width": 3508,
+          "height": 2480
+        },
+        "elementId": "17",
+        "externalBoundariesVisible": true,
+        "relationships": [
+          {
+            "id": "53",
+            "description": "Redirection after CLICK on LAP url",
+            "order": "1",
+            "response": false
+          },
+          {
+            "id": "55",
+            "description": "Acquire token for a given user ID",
+            "order": "2",
+            "response": false,
+            "vertices": [
+              {
+                "x": 1260,
+                "y": 1480
+              }
+            ]
+          },
+          {
+            "id": "56",
+            "description": "Return bearer token with the user ID included",
+            "order": "3",
+            "response": false,
+            "vertices": [
+              {
+                "x": 1670,
+                "y": 1475
+              }
+            ]
+          },
+          {
+            "id": "57",
+            "description": "Redirection with the acquired bearer token (ideally in the http headers but eventually can be in an url query parameters)",
+            "order": "4",
+            "response": false
+          }
+        ],
+        "elements": [
+          {
+            "id": "22",
+            "x": 1235,
+            "y": 1795
+          },
+          {
+            "id": "12",
+            "x": 1235,
+            "y": 215
+          },
+          {
+            "id": "4",
+            "x": 2245,
+            "y": 985
+          },
+          {
+            "id": "21",
+            "x": 1235,
+            "y": 985
+          }
+        ]
+      },
+      {
+        "key": "AuditTrail",
+        "order": 5,
+        "description": "Audit Trail Workflow",
+        "paperSize": "A3_Landscape",
+        "dimensions": {
+          "width": 4758,
+          "height": 2654
+        },
+        "elementId": "17",
+        "externalBoundariesVisible": true,
+        "relationships": [
+          {
+            "id": "79",
+            "description": "Get Audit Trail request",
+            "order": "1",
+            "response": false,
+            "vertices": [
+              {
+                "x": 1365,
+                "y": 625
+              }
+            ]
+          },
+          {
+            "id": "62",
+            "description": "Get Audit Trail request",
+            "order": "2",
+            "response": false,
+            "vertices": [
+              {
+                "x": 1375,
+                "y": 1305
+              }
+            ]
+          },
+          {
+            "id": "126",
+            "description": "Read record",
+            "order": "3",
+            "response": false
+          },
+          {
+            "id": "67",
+            "description": "Publish Audit trail request",
+            "order": "4",
+            "response": false,
+            "vertices": [
+              {
+                "x": 1349,
+                "y": 2053
+              }
+            ]
+          },
+          {
+            "id": "129",
+            "description": "Handle DomainEventsRequest Message",
+            "order": "5",
+            "response": false,
+            "vertices": [
+              {
+                "x": 2505,
+                "y": 1670
+              }
+            ]
+          },
+          {
+            "id": "130",
+            "description": "Read Tenant",
+            "order": "6",
+            "response": false,
+            "vertices": [
+              {
+                "x": 3034,
+                "y": 894
+              }
+            ]
+          },
+          {
+            "id": "131",
+            "description": "Read Audit Trail Events",
+            "order": "7",
+            "response": false
+          },
+          {
+            "id": "130",
+            "description": "Read Audit Trail Events",
+            "order": "8",
+            "response": false,
+            "vertices": [
+              {
+                "x": 3039,
+                "y": 1194
+              }
+            ]
+          },
+          {
+            "id": "129",
+            "description": "Publish Audit Trail Responce Message on Temp Queue",
+            "order": "9",
+            "response": false,
+            "vertices": [
+              {
+                "x": 2680,
+                "y": 1900
+              }
+            ]
+          },
+          {
+            "id": "67",
+            "description": "Receive Audit trail message Event",
+            "order": "10",
+            "response": true,
+            "vertices": [
+              {
+                "x": 1648,
+                "y": 2074
+              }
+            ]
+          },
+          {
+            "id": "62",
+            "description": "Rerturn Audit Trail",
+            "order": "11",
+            "response": true,
+            "vertices": [
+              {
+                "x": 1720,
+                "y": 1330
+              }
+            ]
+          },
+          {
+            "id": "79",
+            "description": "Return Audit Trail",
+            "order": "12",
+            "response": true,
+            "vertices": [
+              {
+                "x": 1685,
+                "y": 635
+              }
+            ]
+          }
+        ],
+        "elements": [
+          {
+            "id": "13",
+            "x": 1299,
+            "y": 109
+          },
+          {
+            "id": "24",
+            "x": 1249,
+            "y": 2264
+          },
+          {
+            "id": "26",
+            "x": 2285,
+            "y": 905
+          },
+          {
+            "id": "16",
+            "x": 1299,
+            "y": 810
+          },
+          {
+            "id": "51",
+            "x": 3345,
+            "y": 185
+          },
+          {
+            "id": "20",
+            "x": 1299,
+            "y": 1564
+          },
+          {
+            "id": "42",
+            "x": 3339,
+            "y": 884
+          }
+        ]
+      },
+      {
+        "key": "PasswordResetRequest",
+        "order": 6,
+        "description": "Password Reset Workflow",
+        "dimensions": {
+          "width": 4054,
+          "height": 2358
+        },
+        "elementId": "17",
+        "externalBoundariesVisible": true,
+        "relationships": [
+          {
+            "id": "79",
+            "description": "Password Reset Request",
+            "order": "1",
+            "response": false
+          },
+          {
+            "id": "60",
+            "description": "Forward: Password Reset Request",
+            "order": "2",
+            "response": false
+          },
+          {
+            "id": "63",
+            "description": "Get User",
+            "order": "3",
+            "response": false
+          },
+          {
+            "id": "65",
+            "description": "Publish: Tenant Password Reset Request Event to Queue X5.Admin.Messages.TenantPasswordResetRequestEvent",
+            "order": "4",
+            "response": false,
+            "vertices": [
+              {
+                "x": 2080,
+                "y": 820
+              }
+            ]
+          },
+          {
+            "id": "120",
+            "description": "Handle: Tenant Password Reset Request Event from Queue X5.Admin.Messages.TenantPasswordResetRequestEvent",
+            "order": "5",
+            "response": false,
+            "vertices": [
+              {
+                "x": 2575,
+                "y": 720
+              }
+            ]
+          },
+          {
+            "id": "122",
+            "description": "Get User",
+            "order": "6",
+            "response": false,
+            "vertices": [
+              {
+                "x": 2770,
+                "y": 1550
+              }
+            ]
+          },
+          {
+            "id": "120",
+            "description": "Publish: Send Reset Password Template Command to Queue X5.Shared.Messages.SendResetPasswordTemplateCommand",
+            "order": "7",
+            "response": false,
+            "vertices": [
+              {
+                "x": 2995,
+                "y": 700
+              }
+            ]
+          },
+          {
+            "id": "122",
+            "description": "Update User",
+            "order": "8",
+            "response": false,
+            "vertices": [
+              {
+                "x": 3010,
+                "y": 1515
+              }
+            ]
+          },
+          {
+            "id": "123",
+            "description": "Handle: Send Reset Password Template Command from Queue X5.Shared.Messages.SendResetPasswordTemplateCommand",
+            "order": "9",
+            "response": false,
+            "vertices": [
+              {
+                "x": 3430,
+                "y": 635
+              }
+            ]
+          },
+          {
+            "id": "125",
+            "description": "Get Blacklist",
+            "order": "10",
+            "response": false
+          },
+          {
+            "id": "124",
+            "description": "Send Email using Template",
+            "order": "11",
+            "response": false
+          }
+        ],
+        "elements": [
+          {
+            "id": "33",
+            "x": 3523,
+            "y": 1028
+          },
+          {
+            "id": "1",
+            "x": 3514,
+            "y": 1778
+          },
+          {
+            "id": "13",
+            "x": 79,
+            "y": 1028
+          },
+          {
+            "id": "24",
+            "x": 2665,
+            "y": 150
+          },
+          {
+            "id": "26",
+            "x": 2654,
+            "y": 1763
+          },
+          {
+            "id": "16",
+            "x": 947,
+            "y": 1028
+          },
+          {
+            "id": "18",
+            "x": 1815,
+            "y": 1028
+          },
+          {
+            "id": "29",
+            "x": 2665,
+            "y": 1030
+          }
+        ]
+      }
+    ],
+    "deploymentViews": [
+      {
+        "key": "DevelopmentDeployment",
+        "order": 4,
+        "softwareSystemId": "11",
+        "dimensions": {
+          "width": 3380,
+          "height": 2648
+        },
+        "environment": "Dev Environment",
+        "animations": [
+          {
+            "order": 1,
+            "elements": ["154", "155", "156", "153"]
+          },
+          {
+            "order": 2,
+            "elements": ["165", "163", "164"],
+            "relationships": ["168"]
+          },
+          {
+            "order": 3,
+            "elements": ["157", "158", "159", "160", "161", "162"],
+            "relationships": ["166", "167"]
+          }
+        ],
+        "elements": [
+          {
+            "id": "160",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "161",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "162",
+            "x": 1835,
+            "y": 209
+          },
+          {
+            "id": "163",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "164",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "153",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "154",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "165",
+            "x": 1095,
+            "y": 1034
+          },
+          {
+            "id": "155",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "156",
+            "x": 355,
+            "y": 1034
+          },
+          {
+            "id": "157",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "158",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": "159",
+            "x": 1835,
+            "y": 1924
+          }
+        ],
+        "relationships": [
+          {
+            "id": "168"
+          },
+          {
+            "id": "167"
+          },
+          {
+            "id": "166"
+          }
+        ]
+      }
+    ],
+    "configuration": {
+      "branding": {},
+      "styles": {},
+      "themes": [
+        "https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json",
+        "https://static.structurizr.com/themes/default/theme.json",
+        "http://127.0.0.1:8070/assets/theme.json"
+      ],
+      "terminology": {},
+      "metadataSymbols": "SquareBrackets",
+      "lastSavedView": "x5Containers",
+      "properties": {
+        "structurizr.softwareSystemBoundaries": "true"
+      }
+    }
+  }
+}

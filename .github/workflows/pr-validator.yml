@@ -1,0 +1,24 @@
+name: PR validator
+on: [pull_request, merge_group]
+
+jobs:
+  labeler:
+    name: Label the PR size
+    if: ${{ github.event_name == 'pull_request' }} # only run job if workflow initiated by a pull request event
+    runs-on: ubuntu-latest
+    steps:
+      - uses: codelytv/pr-size-labeler@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          xs_label: "tiny"
+          xs_max_size: "10"
+          s_label: "small"
+          s_max_size: "100"
+          m_label: "medium"
+          m_max_size: "500"
+          l_label: "large"
+          l_max_size: "1000"
+          xl_label: "bomb"
+          fail_if_xl: "false"
+          message_if_xl: ""
+          files_to_ignore: "package-lock.json"

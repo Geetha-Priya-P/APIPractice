@@ -1,0 +1,15 @@
+services:
+  structurizr:
+    image: structurizr/lite
+    ports:
+      - "8080:8080"
+    volumes:
+      - "${PWD}/..:/usr/local/structurizr"
+
+  nginx:
+    image: nginx
+    volumes:
+      - "${PWD}/nginx.conf:/etc/nginx/nginx.conf:ro"
+      - "${PWD}/..:/usr/share/nginx/html"
+    ports:
+      - "8070:80"

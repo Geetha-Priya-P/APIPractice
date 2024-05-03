@@ -1,0 +1,120 @@
+{
+  "name": "test",
+  "description": "Test",
+  "elements": [
+    {
+      "tag": "RabbitMQ",
+      "shape": "Pipe",
+      "background": "#ffffff",
+      "color": "#000000",
+      "stroke": "#FC5009",
+      "strokeWidth": "6",
+      "icon": "icons/rmq2.png"
+    },
+    {
+      "tag": "Nginx",
+      "icon": "icons/nginx-original.png"
+    },
+    {
+      "tag": "SQLServer",
+      "shape": "Cylinder",
+      "background": "#ffffff",
+      "color": "#000000",
+      "stroke": "#188DE7",
+      "strokeWidth": "6",
+      "icon": "icons/sql-server-4.png"
+    },
+    {
+      "tag": "WebBrowser",
+      "shape": "WebBrowser"
+    },
+    {
+      "tag": "eMaint",
+      "icon": "icons/emaint_white.png"
+    },
+    {
+      "tag": "Api",
+      "opacity": "90",
+      "color": "#FFFFFF",
+      "strokeWidth": "6",
+      "icon": "icons/web.png"
+    },
+    {
+      "tag": "JS",
+      "icon": "icons/js.png"
+    },
+    {
+      "tag": "Service",
+      "strokeWidth": "6",
+      "color": "#FFFFFF",
+      "icon": "icons/cogs.png"
+    },
+    {
+      "tag": "ExternalSystem",
+      "background": "#E5E5E5",
+      "color": "#000000",
+      "stroke": "#BABABA",
+      "strokeWidth": "6"
+    },
+    {
+      "tag": "AwsSes",
+      "icon": "icons/Arch_Amazon-Simple-Email-Service_64@5x.png"
+    },
+    {
+      "tag": "AwsSqs",
+      "shape": "Pipe",
+      "background": "#ffffff",
+      "color": "#000000",
+      "stroke": "#D5296A",
+      "strokeWidth": "6",
+      "icon": "icons/Arch_Amazon-Simple-Queue-Service_64@5x.png"
+    },
+    {
+      "tag": "AwsS3Bucket",
+      "shape": "Cylinder",
+      "background": "#E3F5D6",
+      "color": "#000000",
+      "stroke": "#6DAF3F",
+      "strokeWidth": "6",
+      "icon": "icons/Res_Amazon-Simple-Storage-Service_Bucket-With-Objects_48_Dark.png"
+    },
+    {
+      "tag": "DynamoDb",
+      "shape": "Cylinder",
+      "background": "#538FFF",
+      "color": "#000000",
+      "stroke": "#2E27AD",
+      "strokeWidth": "6",
+      "icon": "icons/Arch_Amazon-DynamoDB_64@5x.png"
+    },
+    {
+      "tag": "MongoDb",
+      "shape": "Cylinder",
+      "background": "#00ED64",
+      "color": "#000000",
+      "stroke": "#00684A",
+      "strokeWidth": "6",
+      "icon": "icons/MongoDB_ForestGreen.png"
+    },
+    {
+      "tag": "Slack",
+      "background": "#F4EDE4",
+      "color": "#000000",
+      "stroke": "#4A154B",
+      "strokeWidth": "6",
+      "icon": "icons/Slack-logo-RGB.png"
+    },
+    {
+      "tag": "FlukeConnect",
+      "icon": "icons/fluke-connect-logo.png"
+    },
+    {
+      "tag": "FlukeMobile",
+      "icon": "icons/fluke-mobile-logo.png"
+    },
+    {
+      "tag": "FlukeLiveAssets",
+      "icon": "icons/fluke-lap.png"
+    }
+  ]
+}
