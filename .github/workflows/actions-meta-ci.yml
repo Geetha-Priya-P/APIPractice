@@ -1,0 +1,43 @@
+name: CI for JS action scripts
+on: [pull_request, merge_group]
+
+jobs:
+  # job to figure out if actions scripts CI is needed
+  changes:
+    name: Check if there are changes
+    # skips draft prs
+    if: ${{ github.event_name != 'pull_request' || !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    outputs:
+      frontend: ${{ steps.filter.outputs.scripts }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            scripts: 
+              - '.github/scripts/**'
+
+  meta-ci:
+    runs-on: ubuntu-latest
+    needs: changes
+    if: ${{ needs.changes.outputs.scripts == 'true' }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: set node to 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
+
+      - name: install dependencies
+        working-directory: .github
+        run: npm ci
+
+      - name: lint all
+        working-directory: .github
+        run: npm run lint
