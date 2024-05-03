@@ -1,0 +1,12 @@
+{
+  "name": "actions-scripts",
+  "type": "module",
+  "description": "Scripts for Github actions",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./scripts --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
