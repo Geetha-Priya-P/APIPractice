@@ -1,0 +1,29 @@
+name: PR Metadata
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+  merge_group:
+
+jobs:
+  validate-metadata:
+    name: Validate yml block
+    # skips draft prs and merge_group events
+    if: ${{ github.event_name == 'pull_request' && !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Check metadata
+        uses: actions/github-script@v6
+        env:
+          PR: ${{ toJson(github.event.pull_request) }}
+        with:
+          script: |
+            const { validatePrMetadata } = await import("${{ github.workspace }}/.github/scripts/pr-metadata-validate.js");
+            const { body } = ${{ env.PR }};
+
+            // github, context and core here are injected by `github-script`
+            // and are different from ${{ github }}
+            validatePrMetadata({github, context, core, body});
