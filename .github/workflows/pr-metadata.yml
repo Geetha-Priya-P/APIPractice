@@ -24,6 +24,4 @@ jobs:
             const { validatePrMetadata } = await import("${{ github.workspace }}/.github/scripts/pr-metadata-validate.js");
             const { body } = ${{ env.PR }};
 
-            // github, context and core here are injected by `github-script`
-            // and are different from ${{ github }}
             validatePrMetadata({github, context, core, body});

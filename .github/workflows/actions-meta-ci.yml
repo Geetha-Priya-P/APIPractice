@@ -5,8 +5,6 @@ jobs:
   # job to figure out if actions scripts CI is needed
   changes:
     name: Check if there are changes
-    # skips draft prs
-    if: ${{ github.event_name != 'pull_request' || !github.event.pull_request.draft }}
     runs-on: ubuntu-latest
     outputs:
       frontend: ${{ steps.filter.outputs.scripts }}

@@ -1,0 +1,14 @@
+name: Get Commit ID
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  get_commit_id:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get Commit ID
+        run: echo "Commit ID - ${{ github.event.pull_request.head.sha }}"
+

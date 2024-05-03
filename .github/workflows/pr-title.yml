@@ -1,0 +1,22 @@
+name: PR validator
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+  merge_group:
+
+jobs:
+  title-check:
+    name: Enforce PR title to be `[X5-1234] Title`
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validates title
+        run: |
+          pr_title="${{ github.event.pull_request.title }}"
+          regex="^\[X5-\d+\].+|Revert \"\[X5-\d+\].+\"$"
+
+          echo "${{ toJson(github.event) }}" | jq '.'  
+
+          if ! echo "${pr_title}" | grep -qP "${regex}"; then
+            echo "Error: invalid PR title"
+            exit 1
+          fi
